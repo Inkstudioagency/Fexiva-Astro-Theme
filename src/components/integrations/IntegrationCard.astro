@@ -1,0 +1,28 @@
+---
+import { mediaUrl, type Integration } from '../../lib/strapi';
+
+interface Props {
+  integration: Integration;
+}
+
+const { integration } = Astro.props;
+---
+
+<div role="listitem" class="integrations-item w-dyn-item">
+  <a page-load-2="" href={`/integrations/${integration.slug}`} class="integration-card w-inline-block">
+    <div class="integration-card-top">
+      <div class="integration-icon">
+        <div class="integration-icon-inner"><img src={mediaUrl(integration.logo)} alt={integration.logo?.alternativeText || integration.name} class="integration-logo" /></div>
+      </div>
+      <div class="integration-arrow"><svg height="18" width="18" fill="none" viewBox="0 0 19 19" xmlns="http://www.w3.org/2000/svg" class="integration-arrow-icon integration-arrow-icon">
+          <path fill="currentColor" d="M10.8292 3.88689C10.9718 3.88689 11.1143 3.93942 11.2269 4.05199L15.7821 8.60722C15.9998 8.82485 15.9998 9.18506 15.7821 9.4027L11.2269 13.9579C11.0093 14.1756 10.6491 14.1756 10.4314 13.9579C10.2138 13.7403 10.2138 13.3801 10.4314 13.1624L14.5889 9.00496L10.4314 4.84746C10.2138 4.62983 10.2138 4.26962 10.4314 4.05199C10.5365 3.93942 10.6866 3.88689 10.8292 3.88689Z"></path>
+          <path fill="currentColor" d="M2.62648 8.44274L15.2566 8.44274C15.5642 8.44274 15.8194 8.69789 15.8194 9.00558C15.8194 9.31326 15.5642 9.56841 15.2566 9.56841L2.62648 9.56842C2.3188 9.56842 2.06365 9.31326 2.06365 9.00558C2.06365 8.69789 2.3188 8.44274 2.62648 8.44274Z"></path>
+        </svg></div>
+    </div>
+    <div class="integration-card-text">
+      <h2 class="integration-card-title">{integration.name}</h2>
+      <p class="integration-card-desc">{integration.excerpt}</p>
+    </div>
+    <div class="integration-overlay"></div>
+  </a>
+</div>

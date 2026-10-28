@@ -1,0 +1,41 @@
+---
+import { postUrl, readTimeLabel } from '../../lib/blog';
+import { mediaUrl, type BlogPost } from '../../lib/strapi';
+
+interface Props {
+  post: BlogPost;
+  /** "compact" = Home/About section card, "large" = Blog list / related card. */
+  variant?: 'compact' | 'large';
+  /** Adds the scroll-reveal interaction attribute. */
+  reveal?: boolean;
+}
+
+const { post, variant = 'large', reveal = true } = Astro.props;
+const large = variant === 'large';
+const href = postUrl(post);
+const loading = large ? undefined : 'lazy';
+const author = post.author;
+---
+
+<div role="listitem" class="blog-item w-dyn-item">
+  <div reveal-anim-3={reveal ? '' : undefined} class:list={['blog-card', { 'is-rounded-lg': large }]}>
+    <a href={href} class:list={['blog-card-image-wrapper', { 'is-tall': large }, 'w-inline-block']}><img alt={post.mainImage?.alternativeText || post.title} loading={loading} src={mediaUrl(post.mainImage)} class="blog-card-image" />
+      <div class="blog-card-arrow"><svg height="24" width="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="blog-card-arrow-icon blog-card-arrow-icon">
+          <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" stroke="currentColor" d="M7 17L17 7M17 7H8M17 7V16"></path>
+        </svg></div>
+    </a>
+    <div class="blog-card-body">
+      <div class="blog-card-meta">
+        <div class="blog-card-author"><img alt={author?.photo?.alternativeText || author?.name || ''} loading={loading} src={mediaUrl(author?.photo)} class="blog-card-author-photo" />
+          <div class="blog-card-meta-text">{author?.name}</div>
+        </div>
+        <div class="blog-card-read-time">
+          <div class="blog-card-meta-text">{readTimeLabel(post)}</div>
+        </div>
+      </div>
+      <a href={href} class="blog-card-title-block w-inline-block">
+        <h3 class="blog-card-title">{post.title}</h3>
+      </a>
+    </div>
+  </div>
+</div>

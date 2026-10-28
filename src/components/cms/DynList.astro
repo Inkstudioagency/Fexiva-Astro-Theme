@@ -1,0 +1,30 @@
+---
+/**
+ * Collection-list wrapper with the same markup as a Webflow collection list:
+ * `.w-dyn-list > .w-dyn-items` plus the "No items found." empty state.
+ */
+import type { HTMLAttributes } from 'astro/types';
+
+interface Props extends HTMLAttributes<'div'> {
+  /** Classes on the inner `.w-dyn-items` element. */
+  itemsClass: string;
+  /** Number of rendered items (the empty state shows when 0). */
+  count: number;
+}
+
+const { itemsClass, count, class: className, ...attrs } = Astro.props;
+---
+
+<div {...attrs} class:list={[className, 'w-dyn-list']}>
+  {
+    count > 0 ? (
+      <div role="list" class:list={[itemsClass, 'w-dyn-items']}>
+        <slot />
+      </div>
+    ) : (
+      <div class="w-dyn-empty">
+        <div>No items found.</div>
+      </div>
+    )
+  }
+</div>

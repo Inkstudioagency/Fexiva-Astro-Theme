@@ -1,0 +1,22 @@
+---
+import ArticleBody from '../../cms/ArticleBody.astro';
+import type { BlogPost } from '../../../lib/strapi';
+
+interface Props {
+  post: BlogPost;
+}
+
+const { post } = Astro.props;
+---
+
+<section class="section_blog-article">
+  <div class="w-layout-blockcontainer container-main w-container">
+    <ArticleBody
+      body={post.body}
+      images={post.articleImages}
+      bodyContinued={post.bodyContinued}
+      imageAlt={(i) => `Supporting photo ${i} for the article ${post.title}`}
+      reveals={['reveal-anim-2', 'reveal-anim-2', 'reveal-anim-3']}
+    />
+  </div>
+</section>

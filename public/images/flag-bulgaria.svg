@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="116" height="116" viewBox="0 0 116 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="bulgaria" clip-path="url(#clip0_0_392)">
+<path id="Vector" d="M116 58C116 50.9054 114.724 44.1092 112.392 37.8262L58 35.3043L3.60755 37.826C1.27623 44.1092 0 50.9054 0 58C0 65.0946 1.27623 71.8908 3.60755 78.1738L58 80.6957L112.392 78.174C114.724 71.8908 116 65.0946 116 58Z" fill="#496E2D"/>
+<path id="Vector_2" d="M58 116C82.938 116 104.197 100.26 112.392 78.1738H3.60755C11.8025 100.26 33.062 116 58 116Z" fill="#D80027"/>
+<path id="Vector_3" d="M3.60755 37.8262H112.393C104.197 15.7398 82.938 0 58 0C33.062 0 11.8025 15.7398 3.60755 37.8262V37.8262Z" fill="#F0F0F0"/>
+</g>
+<defs>
+<clipPath id="clip0_0_392">
+<rect width="116" height="116" fill="white"/>
+</clipPath>
+</defs>
+</svg>

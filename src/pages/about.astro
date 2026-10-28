@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/sections/about/PageHero.astro';
+import AboutStory from '../components/sections/about/AboutStory.astro';
+import AboutValues from '../components/sections/about/AboutValues.astro';
+import AboutTeam from '../components/sections/about/AboutTeam.astro';
+import AboutInvestors from '../components/sections/about/AboutInvestors.astro';
+import BlogSection from '../components/sections/shared/BlogSection.astro';
+import Faq from '../components/sections/shared/Faq.astro';
+import Cta from '../components/sections/shared/Cta.astro';
+---
+
+<BaseLayout pageId="6aa94a24a3ed42a96904d12e" title="About" description="Founded in 2008, Fexiva builds seamless digital finance tools for modern businesses. Meet the team, our values and the investors backing the product.">
+  <PageHero />
+  <AboutStory />
+  <AboutValues />
+  <AboutTeam />
+  <AboutInvestors />
+  <BlogSection variant="dark-bg" />
+  <Faq />
+  <Cta />
+</BaseLayout>

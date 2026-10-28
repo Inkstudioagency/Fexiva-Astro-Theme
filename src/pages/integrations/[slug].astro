@@ -1,0 +1,28 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import IntegrationArticle from '../../components/sections/integration/IntegrationArticle.astro';
+import IntegrationHero from '../../components/sections/integration/IntegrationHero.astro';
+import Faq from '../../components/sections/shared/Faq.astro';
+import { getIntegrations, mediaUrl, type Integration } from '../../lib/strapi';
+
+export const getStaticPaths = (async () => {
+  const integrations = await getIntegrations();
+  return integrations.map((integration) => ({
+    params: { slug: integration.slug },
+    props: { integration },
+  }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  integration: Integration;
+}
+
+const { integration } = Astro.props;
+---
+
+<BaseLayout pageId="6aaae6a53de0d0477f9bd5eb" title={integration.name} rawTitle description={integration.excerpt ?? undefined} image={mediaUrl(integration.logo) || undefined}>
+  <IntegrationHero integration={integration} />
+  <IntegrationArticle integration={integration} />
+  <Faq />
+</BaseLayout>

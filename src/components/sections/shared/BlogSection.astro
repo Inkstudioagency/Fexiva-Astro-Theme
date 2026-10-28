@@ -1,0 +1,34 @@
+---
+import BlogCard from '../../blog/BlogCard.astro';
+import DynList from '../../cms/DynList.astro';
+import { homePosts } from '../../../lib/blog';
+import { getBlogPosts } from '../../../lib/strapi';
+
+interface Props {
+  /** "secondary-bg" (Home) or "dark-bg" (About) — the Webflow component variant. */
+  variant?: 'secondary-bg' | 'dark-bg';
+}
+
+const { variant = 'secondary-bg' } = Astro.props;
+const posts = homePosts(await getBlogPosts());
+---
+
+<section data-wf--blogs--variant={variant} class:list={['section_blog', { 'w-variant-13836081-6852-b370-d170-96c65fc30d47': variant === 'dark-bg' }]}>
+  <div class="container-main">
+    <div class="section-header">
+      <div reveal-anim-1="" class="section-eyebrow">
+        <div class="section-eyebrow-dot"></div>
+        <div class="section-eyebrow-text">Blog</div>
+      </div>
+      <h2 section-title="" class="heading-style-2">Stay Updated With Our Latest Blog</h2>
+    </div>
+    <div class="blog-list-slot">
+      <DynList itemsClass="blog-list" count={posts.length}>
+        {posts.map((post) => <BlogCard post={post} variant="compact" />)}
+      </DynList>
+    </div>
+    <div reveal-anim-1="" class="blog-cta">
+      <a href="/blog" class="primary-button">View all</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,28 @@
+{
+  "name": "fexiva-astro-theme",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Fexiva — a fintech & spend-management Astro theme with a Strapi-powered blog and integrations directory.",
+  "author": "Ink Studio (https://inks.studio)",
+  "keywords": [
+    "astro",
+    "astro-theme",
+    "strapi",
+    "fintech",
+    "saas",
+    "landing-page"
+  ],
+  "engines": {
+    "node": ">=22.23.4"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.4.2"
+  }
+}

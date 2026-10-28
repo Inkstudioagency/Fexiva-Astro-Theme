@@ -1,0 +1,32 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BlogArticle from '../../components/sections/blog-post/BlogArticle.astro';
+import BlogDetailsHero from '../../components/sections/blog-post/BlogDetailsHero.astro';
+import BlogRelated from '../../components/sections/blog-post/BlogRelated.astro';
+import Faq from '../../components/sections/shared/Faq.astro';
+import { relatedPosts } from '../../lib/blog';
+import { getBlogPosts, mediaUrl, type BlogPost } from '../../lib/strapi';
+
+export const getStaticPaths = (async () => {
+  const posts = await getBlogPosts();
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post, related: relatedPosts(posts, post) },
+  }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  post: BlogPost;
+  related: BlogPost[];
+}
+
+const { post, related } = Astro.props;
+---
+
+<BaseLayout pageId="6aa8f826566851e34a1cbb54" title={post.title} rawTitle description={post.excerpt ?? undefined} image={mediaUrl(post.mainImage) || undefined}>
+  <BlogDetailsHero post={post} />
+  <BlogArticle post={post} />
+  <BlogRelated posts={related} />
+  <Faq />
+</BaseLayout>

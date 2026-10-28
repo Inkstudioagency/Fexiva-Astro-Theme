@@ -1,0 +1,32 @@
+---
+interface Props {
+  /** Link for the "Download App" button. */
+  buttonHref?: string;
+}
+
+const { buttonHref = '/contact' } = Astro.props;
+const external = /^https?:/.test(buttonHref);
+---
+
+<section class="section_cta">
+  <div class="section-gap bottom-gap">
+    <div class="w-layout-blockcontainer container-main w-container">
+      <div class="cta-card">
+        <div class="cta-content">
+          <div class="cta-text-block">
+            <div class="cta-ttitle-block">
+              <h2 section-title="" class="heading-style-2">Ready To Modernize Your Financial Stack?</h2>
+            </div>
+            <div class="cta-summary-block">
+              <p reveal-anim-2="" class="text-size-regular text-color-white">Start managing subscriptions, card limits, and approvals with zero friction.</p>
+            </div>
+          </div>
+          <div reveal-anim-2="" class="cta-button-block">
+            <a href={buttonHref} target={external ? '_blank' : undefined} class="primary-button">Download App</a>
+          </div>
+        </div>
+        <div reveal-anim-4="" class="cta-image-block-1"><img src="/images/cta-phone-qr.webp" loading="lazy" sizes="100vw" srcset="/images/cta-phone-qr-p-500.webp 500w, /images/cta-phone-qr.webp 507w" alt="Fexiva mobile app showing a QR code scanner" class="cta-image"><img src="/images/cta-qr-frame.svg" loading="lazy" alt="QR code scanning frame around the app screen" class="cta-qr-frame"></div>
+      </div>
+    </div>
+  </div>
+</section>

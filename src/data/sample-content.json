@@ -1,0 +1,4422 @@
+{
+  "blogPosts": [
+    {
+      "id": 1,
+      "documentId": "post-how-motion-design-is-shaping-online-financial-services",
+      "title": "How Motion Design Is Shaping Online Financial Services",
+      "slug": "how-motion-design-is-shaping-online-financial-services",
+      "excerpt": "Motion is no longer decoration. From onboarding to transaction confirmations, it now carries meaning, trust and speed.",
+      "mainImage": {
+        "id": 4,
+        "documentId": "media-blog-p11-webp",
+        "url": "/cms/blog-p11.webp",
+        "alternativeText": "How Motion Design Is Shaping Online Financial Services",
+        "width": 1600,
+        "height": 906,
+        "mime": "image/webp"
+      },
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Motion Used To Be Decoration In Finance Apps. Today It Carries Meaning, Confirms Trust And Quietly Tells People Their Money Is Safe."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "For most of the last decade, animation in banking products was treated as polish that could be added at the end, if the budget allowed. That thinking has flipped. Motion now explains what just happened to a payment, reassures a nervous first-time user, and shortens the gap between tapping a button and believing the result."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why Movement Matters More In Money Than Anywhere Else"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "A misplaced decimal in a shopping app costs a refund; in a finance app it costs trust that rarely returns. Motion gives every transfer, approval and card freeze a visible cause and effect, so users never wonder whether the tap registered or whether the balance they see is the balance they have."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 5,
+          "documentId": "media-blog-article-1-webp",
+          "url": "/cms/blog-article-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 6,
+          "documentId": "media-blog-article-2-webp",
+          "url": "/cms/blog-article-2.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 792,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Where Motion Earns Its Place"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Transaction confirmations that animate the balance changing, so the outcome is understood without reading a single line of copy."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Onboarding flows that move the document capture, selfie and verification steps along a single visual path, which lowers abandonment because people can see how much is left rather than guessing whether the process has stalled."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Alerts and card controls that use short, consistent transitions so a freeze feels immediate and a limit change feels deliberate rather than accidental."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Principles Our Product Team Follows"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Every animation must answer a question the user has at that moment, such as where did my money go or did that approval succeed, otherwise it is removed before release."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Nothing important moves for longer than four hundred milliseconds, because finance users are task-driven and anything slower reads as the system thinking rather than the system responding."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "What This Means For Teams Building Financial Products"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Treat motion as part of the information architecture, not as a layer applied by the marketing team once the interface is finished."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "The products that feel trustworthy in 2026 are the ones where every state change is visible, proportional and calm. Users may never mention the animation when they describe why they like a banking app, but they will describe it as clear, fast and reliable, and those three words are almost always motion doing its job in the background."
+            }
+          ]
+        }
+      ],
+      "readTime": 10,
+      "publishedDate": "2026-09-02",
+      "category": "Fintech",
+      "featured": true,
+      "author": {
+        "id": 1,
+        "documentId": "author-1",
+        "name": "Shane Nguyen",
+        "role": "Head of Product",
+        "bio": "Shane writes about product design and the future of digital banking.",
+        "photo": {
+          "id": 1,
+          "documentId": "media-author-1-webp",
+          "url": "/cms/author-1.webp",
+          "alternativeText": "Shane Nguyen",
+          "width": 300,
+          "height": 300,
+          "mime": "image/webp"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "documentId": "post-digital-finance-and-the-future-of-smarter-modern-banking",
+      "title": "Digital Finance And The Future Of Smarter Modern Banking",
+      "slug": "digital-finance-and-the-future-of-smarter-modern-banking",
+      "excerpt": "Banking is moving from a place you visit to a layer that runs quietly underneath every business decision.",
+      "mainImage": {
+        "id": 7,
+        "documentId": "media-blog-p1-webp",
+        "url": "/cms/blog-p1.webp",
+        "alternativeText": "Digital Finance And The Future Of Smarter Modern Banking",
+        "width": 1600,
+        "height": 1095,
+        "mime": "image/webp"
+      },
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "The Bank Account Is Becoming A Platform, And The Companies That Notice First Will Move Faster Than Their Competitors."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "For decades a business bank account was a static container: money came in, money went out, and a statement arrived at the end of the month. Digital finance turns that container into an operating layer that can issue cards, enforce spending policy, forecast cash and talk to every other tool the company runs on."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "From Monthly Statements To Live Signals"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Modern accounts stream every transaction the moment it settles, and that real-time feed is the raw material for alerts, budgets and forecasts that used to require an analyst and a spreadsheet. When data arrives instantly the questions change from what was spent last month to what is about to be spent this week."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 5,
+          "documentId": "media-blog-article-1-webp",
+          "url": "/cms/blog-article-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 6,
+          "documentId": "media-blog-article-2-webp",
+          "url": "/cms/blog-article-2.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 792,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "What Smarter Banking Actually Looks Like"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Cards that carry their own rules, so a subscription card can only pay one vendor and a travel card expires the day the trip ends."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Approvals that show the remaining team budget before anyone clicks approve, which turns a rubber-stamp step into a genuine decision and removes the awkward conversation that happens when a budget is discovered to be empty after the money has already gone."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Forecasts that learn from actual spending patterns and seasonality instead of a static template someone built two financial years ago."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Three Steps To Get Ready"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Map every recurring payment and the person who owns it. Most companies discover at least a handful of subscriptions that nobody remembers signing up for and nobody is using today."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Move approvals out of email and chat into a system that records who decided what and when, then connect that system to accounting so reconciliation becomes a review rather than a rebuild."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "The Long View"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "The winners of this shift will not be the companies with the longest feature list. They will be the ones whose finance teams spend less time collecting data."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "When the account itself does the gathering, categorising and matching, the people who used to do that work are free to ask better questions: which customers are profitable, which tools are worth renewing and where the next hire should sit. That is the real promise of smarter banking, and it is available to any company willing to change how it treats its account."
+            }
+          ]
+        }
+      ],
+      "readTime": 6,
+      "publishedDate": "2026-08-10",
+      "category": "Fintech",
+      "featured": true,
+      "author": {
+        "id": 2,
+        "documentId": "author-2",
+        "name": "Arthur Henry",
+        "role": "Security Engineer",
+        "bio": "Arthur explains security, compliance and infrastructure in plain language.",
+        "photo": {
+          "id": 2,
+          "documentId": "media-author-3-webp",
+          "url": "/cms/author-3.webp",
+          "alternativeText": "Arthur Henry",
+          "width": 300,
+          "height": 300,
+          "mime": "image/webp"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "documentId": "post-the-future-of-money-through-digital-fintech-innovation",
+      "title": "The Future Of Money Through Digital Fintech Innovation",
+      "slug": "the-future-of-money-through-digital-fintech-innovation",
+      "excerpt": "Programmable money, instant settlement and adaptive controls are quietly rewriting how companies think about cash.",
+      "mainImage": {
+        "id": 8,
+        "documentId": "media-blog-p12-webp",
+        "url": "/cms/blog-p12.webp",
+        "alternativeText": "The Future Of Money Through Digital Fintech Innovation",
+        "width": 1200,
+        "height": 1543,
+        "mime": "image/webp"
+      },
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Money Is Becoming Software, And That Quietly Changes What A Finance Team Is For And Who Belongs On It."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "When a payment can carry its own rules, settle in seconds and report itself to the ledger, the finance function stops being a back office and becomes a control system for the whole company. This shift is already underway in the products businesses use every day, even if most teams have not named it yet."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Instant Settlement Changes How Companies Plan"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Waiting three days for funds to clear forced companies to hold buffers and guess. Real-time rails let teams plan around actual balances rather than probable ones, which frees up cash that used to sit idle as insurance against timing and lets a growing business put that money to work sooner."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 5,
+          "documentId": "media-blog-article-1-webp",
+          "url": "/cms/blog-article-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 6,
+          "documentId": "media-blog-article-2-webp",
+          "url": "/cms/blog-article-2.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 792,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Programmable Controls In Practice"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Spending limits that adjust automatically as a team's budget is consumed through the month rather than resetting blindly."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Merchant category rules applied before a transaction is authorised, so a card meant for software cannot be used at a restaurant and nobody has to chase the receipt or write the awkward reminder email afterwards."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Automatic receipt matching that closes the loop without a reminder email, a spreadsheet or a Friday afternoon lost to reconciliation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Two Habits Worth Building Now"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Treat every policy as something that can be encoded rather than written in a handbook, because a rule the system enforces is followed every time while a rule people remember is followed most of the time."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Review controls monthly and remove the ones nobody trips, so the rules that remain stay meaningful and the team keeps trusting that a decline is a signal rather than a nuisance."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Where This Leads"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Finance teams will spend less time asking what happened and more time designing what should happen next quarter."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "That is a fundamentally different job, closer to product management than to bookkeeping, and the tools to do it already exist. The companies that adapt will treat their finance team as the people who set the rules of the game, while everyone else keeps paying skilled staff to reconstruct last month from receipts and bank exports."
+            }
+          ]
+        }
+      ],
+      "readTime": 8,
+      "publishedDate": "2026-08-18",
+      "category": "Fintech",
+      "featured": false,
+      "author": {
+        "id": 2,
+        "documentId": "author-2",
+        "name": "Arthur Henry",
+        "role": "Security Engineer",
+        "bio": "Arthur explains security, compliance and infrastructure in plain language.",
+        "photo": {
+          "id": 2,
+          "documentId": "media-author-3-webp",
+          "url": "/cms/author-3.webp",
+          "alternativeText": "Arthur Henry",
+          "width": 300,
+          "height": 300,
+          "mime": "image/webp"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "documentId": "post-beyond-traditional-banking-and-financial-technology",
+      "title": "Beyond Traditional Banking And Financial Technology",
+      "slug": "beyond-traditional-banking-and-financial-technology",
+      "excerpt": "Fintech did not replace banks. It unbundled them, and businesses now assemble the pieces they actually need.",
+      "mainImage": {
+        "id": 9,
+        "documentId": "media-blog-p3-webp",
+        "url": "/cms/blog-p3.webp",
+        "alternativeText": "Beyond Traditional Banking And Financial Technology",
+        "width": 1600,
+        "height": 906,
+        "mime": "image/webp"
+      },
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Financial Technology Did Not Kill The Bank. It Broke Banking Into Parts And Let Businesses Choose Only The Pieces They Need."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "The first wave of fintech focused on consumers: faster transfers, cleaner apps and fewer fees. The second wave is aimed squarely at companies, and it treats payments, cards, lending and reporting as building blocks rather than a single package sold by a single institution on a single set of terms."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why Unbundling Matters For Growing Teams"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "A five-person startup and a five-hundred-person company do not need the same financial stack, yet traditional banking sold both of them the same account. Unbundling lets a team start with the basics, add capability as the business grows and avoid migrating to a new provider every eighteen months."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 5,
+          "documentId": "media-blog-article-1-webp",
+          "url": "/cms/blog-article-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 6,
+          "documentId": "media-blog-article-2-webp",
+          "url": "/cms/blog-article-2.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 792,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "The Building Blocks"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Instant issuing for physical and virtual cards, with limits and merchant rules set per card rather than per account."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Embedded lending that prices credit on live revenue data instead of a two-year-old balance sheet, so a company with strong recent growth is judged on what it is doing now and not on the year it was still finding its footing."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Open APIs that keep accounting, payroll and procurement tools in sync without a nightly export or a person copying numbers between tabs."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "How To Evaluate A Provider"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Ask how data leaves the platform, not just how it arrives. A tool that imports beautifully but exports a monthly PDF will become the bottleneck the moment you add a second system."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Run the approval flow with a real purchase and count how many people it touches, how long each step waits and whether the final record would satisfy an auditor without any explanation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "What Traditional Banks Still Do Well"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Deposit protection, regulatory depth and long-term credit relationships remain the domain of established institutions, and that is unlikely to change soon."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "The smartest fintech products partner with banks rather than pretending they do not exist, sitting on top of regulated accounts and adding the software layer that banks have historically struggled to build. For a business, the practical answer is not to choose between the two but to combine a trusted balance sheet with the tools that make the money on it easier to move, control and understand."
+            }
+          ]
+        }
+      ],
+      "readTime": 7,
+      "publishedDate": "2026-08-26",
+      "category": "Fintech",
+      "featured": true,
+      "author": {
+        "id": 3,
+        "documentId": "author-3",
+        "name": "Sophie Turner",
+        "role": "Content Lead",
+        "bio": "Sophie covers fintech trends, growth and customer stories.",
+        "photo": {
+          "id": 3,
+          "documentId": "media-author-2-webp",
+          "url": "/cms/author-2.webp",
+          "alternativeText": "Sophie Turner",
+          "width": 300,
+          "height": 300,
+          "mime": "image/webp"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "documentId": "post-bank-level-security-into-two-minute-onboarding",
+      "title": "Bank-Level Security Into Two-Minute Onboarding",
+      "slug": "bank-level-security-into-two-minute-onboarding",
+      "excerpt": "Speed and security are not opposites. A look at the checks that run while you type.",
+      "mainImage": {
+        "id": 10,
+        "documentId": "media-blog-p9-webp",
+        "url": "/cms/blog-p9.webp",
+        "alternativeText": "Bank-Level Security Into Two-Minute Onboarding",
+        "width": 1200,
+        "height": 1754,
+        "mime": "image/webp"
+      },
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Fast Onboarding Is Usually Where Security Gets Compromised. We Decided To Take The Opposite Approach From The Start."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Most verification flows make the applicant wait while checks run one after another, each one adding a spinner and a chance to give up. We moved identity verification, sanctions screening and device fingerprinting into the background and ran them in parallel while the person completes a short, friendly form."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Identity Without Friction"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Document capture uses the phone camera, extracts the fields automatically and compares them to the details already entered, so the applicant never retypes their name or address. Mismatches are flagged instantly rather than days later, when the person has already forgotten what they typed."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 5,
+          "documentId": "media-blog-article-1-webp",
+          "url": "/cms/blog-article-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 6,
+          "documentId": "media-blog-article-2-webp",
+          "url": "/cms/blog-article-2.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 792,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "What Runs In The Background"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Government document authenticity checks that look at fonts, holograms and machine-readable zones in under a second."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Sanctions and politically exposed person screening against continuously updated lists, with fuzzy matching tuned so that common names do not generate a wall of false positives that a human then has to clear by hand before the account can open."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Device reputation and behavioural signals gathered from the session itself, such as typing rhythm and how the form is navigated."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Continuous Verification After Signup"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Onboarding is only the first checkpoint. Risk scores update with every session, so an account that behaves differently six months in is noticed without anyone filing a ticket."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Step-up authentication triggers only when behaviour changes, which means trusted users on trusted devices almost never see an extra prompt while a new device gets a second look."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "The Result"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Median onboarding time dropped to under two minutes while the number of fraud attempts caught at signup actually increased."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "The lesson is simple and applies far beyond banking: security that runs alongside the user, rather than in front of them, is both faster and stronger. Every check that used to be a gate became a signal, every signal feeds a score, and the score decides quietly whether the next step needs a human at all."
+            }
+          ]
+        }
+      ],
+      "readTime": 9,
+      "publishedDate": "2026-08-01",
+      "category": "Security",
+      "featured": false,
+      "author": {
+        "id": 2,
+        "documentId": "author-2",
+        "name": "Arthur Henry",
+        "role": "Security Engineer",
+        "bio": "Arthur explains security, compliance and infrastructure in plain language.",
+        "photo": {
+          "id": 2,
+          "documentId": "media-author-3-webp",
+          "url": "/cms/author-3.webp",
+          "alternativeText": "Arthur Henry",
+          "width": 300,
+          "height": 300,
+          "mime": "image/webp"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "documentId": "post-inside-fexiva-the-roadmap-for-the-rest-of-the-year",
+      "title": "Inside Fexiva: The Roadmap For The Rest Of The Year",
+      "slug": "inside-fexiva-the-roadmap-for-the-rest-of-the-year",
+      "excerpt": "Multi-entity support, smarter forecasting and a redesigned mobile app are on the way.",
+      "mainImage": {
+        "id": 11,
+        "documentId": "media-blog-p6-webp",
+        "url": "/cms/blog-p6.webp",
+        "alternativeText": "Inside Fexiva: The Roadmap For The Rest Of The Year",
+        "width": 1600,
+        "height": 906,
+        "mime": "image/webp"
+      },
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "We Ship Every Two Weeks, But A Few Larger Themes Will Define The Next Six Months Of The Product."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Customer conversations this year pointed to three recurring needs: managing several companies from one place, seeing further ahead with cash, and doing more from a phone. Here is how we are answering each of them, what is already in early access and where we still want your feedback."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Multi-Entity Finance"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Manage several companies from one login with consolidated reporting, shared approval policies and per-entity permissions. Group finance teams will be able to switch context without switching accounts, and a policy written once at the group level can be inherited or overridden by each entity as needed."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 5,
+          "documentId": "media-blog-article-1-webp",
+          "url": "/cms/blog-article-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 6,
+          "documentId": "media-blog-article-2-webp",
+          "url": "/cms/blog-article-2.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 792,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Forecasting That Learns"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Projections built from actual spending patterns and payment timing rather than manual assumptions typed into a template."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Scenario toggles for hiring plans, large purchases and delayed customer payments, so a founder can see what happens to runway if two hires start in March instead of January without rebuilding the model."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Alerts when the forecast drifts from the plan by more than a threshold you set, delivered where your team already works."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "A Rebuilt Mobile App"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Instant card freeze and limit changes from the lock screen, because the moment you need them is rarely the moment you are sitting at a desk with a laptop open."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Offline receipt capture that queues photos and notes on the device and syncs the moment a connection returns, so travelling staff stop losing receipts in hotel rooms."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "How To Follow Along"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Every release is documented on the changelog, and customers on the early-access programme get features two weeks ahead of general availability."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "If one of these themes matters to your team, reply to the roadmap email or message us from the app and we will add you to the relevant beta. Nothing on this list is final; the order changes when enough customers tell us the same thing, which is exactly how the first two items earned their place."
+            }
+          ]
+        }
+      ],
+      "readTime": 4,
+      "publishedDate": "2026-07-22",
+      "category": "Company",
+      "featured": false,
+      "author": {
+        "id": 3,
+        "documentId": "author-3",
+        "name": "Sophie Turner",
+        "role": "Content Lead",
+        "bio": "Sophie covers fintech trends, growth and customer stories.",
+        "photo": {
+          "id": 3,
+          "documentId": "media-author-2-webp",
+          "url": "/cms/author-2.webp",
+          "alternativeText": "Sophie Turner",
+          "width": 300,
+          "height": 300,
+          "mime": "image/webp"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "documentId": "post-why-tap-to-pay-is-rewriting-point-of-sale-for-small-teams",
+      "title": "Why Tap-To-Pay Is Rewriting Point-Of-Sale For Small Teams",
+      "slug": "why-tap-to-pay-is-rewriting-point-of-sale-for-small-teams",
+      "excerpt": "The terminal is disappearing into the phone, and with it goes a whole category of hardware cost.",
+      "mainImage": {
+        "id": 12,
+        "documentId": "media-blog-p2-webp",
+        "url": "/cms/blog-p2.webp",
+        "alternativeText": "Why Tap-To-Pay Is Rewriting Point-Of-Sale For Small Teams",
+        "width": 1600,
+        "height": 1067,
+        "mime": "image/webp"
+      },
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "When Any Phone Can Be A Terminal, The Question Is No Longer How To Accept Payments But What To Do With The Data."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Contactless acceptance on ordinary smartphones removes the last piece of dedicated hardware from the counter. For small teams this is more than a cost saving; it is the moment payments stop being a separate system and become part of the same platform as inventory, payroll and cash planning."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "What Changes At The Counter"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Staff take payment wherever the customer happens to be standing, receipts are digital by default and the transaction lands in the ledger already categorised. The queue at a fixed till disappears, and a pop-up stall or a delivery driver has exactly the same capability as the flagship store."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 5,
+          "documentId": "media-blog-article-1-webp",
+          "url": "/cms/blog-article-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 6,
+          "documentId": "media-blog-article-2-webp",
+          "url": "/cms/blog-article-2.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 792,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Benefits Beyond The Hardware"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "No terminal rental, repair or replacement cycle, and no waiting for a courier when a device fails on a Saturday."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "New locations and pop-ups go live in minutes because the only setup step is signing into the app on a phone the team already owns, which makes seasonal markets and one-day events viable in a way they never were with leased hardware."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Sales data arrives in real time rather than in an end-of-day batch, so stock and cash decisions can be made during trading hours."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Getting Started"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Confirm your devices support NFC and the latest operating system version, then enrol each one from the admin dashboard so lost phones can be revoked remotely."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Connect the acceptance app to your accounting platform so settlements reconcile automatically against orders and fees are booked to the right account without manual entries."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "The Bigger Picture"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Payments used to be a cost centre that finance tolerated and operations worked around. That framing no longer holds."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Once every sale flows through the same platform as everything else, payment data becomes one of the richest sources of operating insight a small business has: which hours are busiest, which products sell together, which locations are quietly underperforming. The phone in a staff member's pocket is now both the till and the analyst."
+            }
+          ]
+        }
+      ],
+      "readTime": 5,
+      "publishedDate": "2026-07-30",
+      "category": "Product",
+      "featured": false,
+      "author": {
+        "id": 1,
+        "documentId": "author-1",
+        "name": "Shane Nguyen",
+        "role": "Head of Product",
+        "bio": "Shane writes about product design and the future of digital banking.",
+        "photo": {
+          "id": 1,
+          "documentId": "media-author-1-webp",
+          "url": "/cms/author-1.webp",
+          "alternativeText": "Shane Nguyen",
+          "width": 300,
+          "height": 300,
+          "mime": "image/webp"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "documentId": "post-designing-spend-controls-teams-actually-follow",
+      "title": "Designing Spend Controls Teams Actually Follow",
+      "slug": "designing-spend-controls-teams-actually-follow",
+      "excerpt": "Controls fail when they feel like punishment. Here is how to design guard rails people are happy to use.",
+      "mainImage": {
+        "id": 13,
+        "documentId": "media-blog-p4-webp",
+        "url": "/cms/blog-p4.webp",
+        "alternativeText": "Designing Spend Controls Teams Actually Follow",
+        "width": 1200,
+        "height": 1600,
+        "mime": "image/webp"
+      },
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "The Best Spend Policy Is The One Nobody Has To Remember, Because The Card Itself Already Knows The Rules."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Written policies live in handbooks that nobody reads after their first week. Encoded policies live on the card, so the right thing to do is also the easiest thing to do. The difference shows up immediately in fewer exceptions, fewer chasers from finance and far less friction at month end."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Start With Intent, Not Restrictions"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Every control should answer a question the business genuinely has, such as how much a team may spend on tools before someone reviews it. If nobody can explain why a limit exists, it will be worked around, and the workaround will be harder to see than the original spend."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 5,
+          "documentId": "media-blog-article-1-webp",
+          "url": "/cms/blog-article-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 6,
+          "documentId": "media-blog-article-2-webp",
+          "url": "/cms/blog-article-2.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 792,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Patterns That Work"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Per-card merchant categories instead of blanket blocks, so a marketing card works at ad platforms and nowhere else."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Soft limits that ask for a short note rather than declining outright, which keeps urgent purchases moving while still producing the explanation finance would otherwise have to request by email three weeks later when nobody remembers the details."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Budget visibility at the moment of purchase, so people see the remaining balance before they commit rather than after."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Rolling Controls Out"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Pilot with one team for a month and measure declines, exceptions and time to reimbursement, then adjust the thresholds before anyone else sees the system."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Publish the pilot results before expanding, so the rest of the company sees the benefit in numbers rather than hearing about a new rule from an announcement."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Keep Reviewing"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Controls are not set-and-forget. A quarterly review that removes unused rules keeps the remaining ones credible with the people they apply to."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "The goal was never to say no more often; it was to make the sensible path the default one. When a control is tripped only a handful of times a quarter and each of those is a genuine catch, the policy is working. When it is tripped daily, the policy is wrong, and the review is where that gets fixed."
+            }
+          ]
+        }
+      ],
+      "readTime": 6,
+      "publishedDate": "2026-07-15",
+      "category": "Product",
+      "featured": false,
+      "author": {
+        "id": 3,
+        "documentId": "author-3",
+        "name": "Sophie Turner",
+        "role": "Content Lead",
+        "bio": "Sophie covers fintech trends, growth and customer stories.",
+        "photo": {
+          "id": 3,
+          "documentId": "media-author-2-webp",
+          "url": "/cms/author-2.webp",
+          "alternativeText": "Sophie Turner",
+          "width": 300,
+          "height": 300,
+          "mime": "image/webp"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "documentId": "post-how-finance-and-operations-finally-share-one-source-of-truth",
+      "title": "How Finance And Operations Finally Share One Source Of Truth",
+      "slug": "how-finance-and-operations-finally-share-one-source-of-truth",
+      "excerpt": "The spreadsheet handoff between teams is where most errors are born. Integration removes the handoff entirely.",
+      "mainImage": {
+        "id": 14,
+        "documentId": "media-blog-p5-webp",
+        "url": "/cms/blog-p5.webp",
+        "alternativeText": "How Finance And Operations Finally Share One Source Of Truth",
+        "width": 1600,
+        "height": 906,
+        "mime": "image/webp"
+      },
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Most Reporting Errors Are Not Calculation Mistakes. They Are Copy-And-Paste Mistakes Made Between Two Systems."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "When operations tracks spend in one tool and finance reports it from another, someone has to move the numbers between them. Every move is a chance for a version to drift. Connecting the two systems directly is less glamorous than a new dashboard, but it fixes the actual problem instead of decorating it."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Where The Drift Happens"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Exports taken on different days, categories renamed in one place but not the other, and manual adjustments that never make it back upstream are the usual suspects. None of them is dramatic on its own, which is exactly why they survive until a board pack shows two different totals for the same month."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 5,
+          "documentId": "media-blog-article-1-webp",
+          "url": "/cms/blog-article-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 6,
+          "documentId": "media-blog-article-2-webp",
+          "url": "/cms/blog-article-2.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 792,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "What Integration Should Deliver"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Transactions that arrive in accounting already coded to the right account, cost centre and project."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Approvals visible to both teams in the same record, so an operations lead can see that finance has signed off and finance can see the business reason without either of them opening a second tool or forwarding a thread."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A single audit trail from request to reimbursement that an auditor can follow without asking for context."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Two Questions To Ask Your Vendors"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Does the integration write back, or only export? A one-way export means the other system will always be slightly out of date, and slightly out of date is enough to break trust."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "What happens to a transaction that is edited after it has synced? If the answer involves a manual fix, you have found where the next discrepancy will come from."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "The Payoff"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Teams that close the loop report a faster month-end close and, more importantly, fewer conversations that start with the phrase which number is right."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Once both teams look at the same record, the argument about whose spreadsheet is correct simply disappears, and the time it used to consume goes into deciding what to do about the number rather than defending it. That is a cultural change as much as a technical one, and it starts with removing the handoff."
+            }
+          ]
+        }
+      ],
+      "readTime": 7,
+      "publishedDate": "2026-07-08",
+      "category": "Company",
+      "featured": false,
+      "author": {
+        "id": 2,
+        "documentId": "author-2",
+        "name": "Arthur Henry",
+        "role": "Security Engineer",
+        "bio": "Arthur explains security, compliance and infrastructure in plain language.",
+        "photo": {
+          "id": 2,
+          "documentId": "media-author-3-webp",
+          "url": "/cms/author-3.webp",
+          "alternativeText": "Arthur Henry",
+          "width": 300,
+          "height": 300,
+          "mime": "image/webp"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "documentId": "post-five-signs-your-company-has-outgrown-its-banking-setup",
+      "title": "Five Signs Your Company Has Outgrown Its Banking Setup",
+      "slug": "five-signs-your-company-has-outgrown-its-banking-setup",
+      "excerpt": "The account that worked at ten people quietly becomes a bottleneck at fifty. Here is how to tell.",
+      "mainImage": {
+        "id": 15,
+        "documentId": "media-blog-p7-webp",
+        "url": "/cms/blog-p7.webp",
+        "alternativeText": "Five Signs Your Company Has Outgrown Its Banking Setup",
+        "width": 1600,
+        "height": 906,
+        "mime": "image/webp"
+      },
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Growth Rarely Breaks A Banking Setup All At Once. It Wears The Setup Down One Small Workaround At A Time."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Founders tend to notice the problem only when a payment is late, a card is declined at the wrong moment or the month-end close slips by a week. The warning signs usually appear much earlier, and they are worth catching before they compound into something the whole company can feel."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "The Early Warnings"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "If a single shared card is passed around the office, or if approvals happen in chat threads that nobody can find later, the setup is already stretched. These habits feel efficient at ten people and become invisible liabilities at fifty, because everyone assumes someone else is keeping track."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 5,
+          "documentId": "media-blog-article-1-webp",
+          "url": "/cms/blog-article-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 6,
+          "documentId": "media-blog-article-2-webp",
+          "url": "/cms/blog-article-2.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 792,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Five Signs To Watch"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "More than one spreadsheet exists to track the same spend, and the totals do not agree."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reimbursements take longer than a week, subscriptions renew that nobody remembers approving, and nobody can say how much a specific team spent last month without asking finance to pull a report that takes a day to produce."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The month-end close depends on one person being available, and that person is the one who knows where everything is."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "What To Do Next"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Inventory every account, card and tool that moves money, note who owns each one and how it is reconciled today, and be honest about which ones are reconciled by memory."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Decide which controls need to be enforced automatically rather than by policy, because the rules that matter most are the ones you cannot afford to rely on people remembering."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "A Better Baseline"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "The goal is not more process. It is a setup where the default path is the compliant one and nobody needs to remember a rule to follow it."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "When that is in place, growth adds customers rather than workarounds, and the finance team's job shifts from chasing to designing. Most companies that make the change say the same thing afterwards: they wish they had done it a year earlier, before the workarounds had names and owners."
+            }
+          ]
+        }
+      ],
+      "readTime": 5,
+      "publishedDate": "2026-06-24",
+      "category": "Company",
+      "featured": true,
+      "author": {
+        "id": 1,
+        "documentId": "author-1",
+        "name": "Shane Nguyen",
+        "role": "Head of Product",
+        "bio": "Shane writes about product design and the future of digital banking.",
+        "photo": {
+          "id": 1,
+          "documentId": "media-author-1-webp",
+          "url": "/cms/author-1.webp",
+          "alternativeText": "Shane Nguyen",
+          "width": 300,
+          "height": 300,
+          "mime": "image/webp"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "documentId": "post-zero-trust-payments-protecting-every-transaction",
+      "title": "Zero-Trust Payments: Protecting Every Transaction",
+      "slug": "zero-trust-payments-protecting-every-transaction",
+      "excerpt": "A strong password protects the front door. Zero-trust protects every room after it.",
+      "mainImage": {
+        "id": 16,
+        "documentId": "media-blog-p8-webp",
+        "url": "/cms/blog-p8.webp",
+        "alternativeText": "Zero-Trust Payments: Protecting Every Transaction",
+        "width": 1600,
+        "height": 1067,
+        "mime": "image/webp"
+      },
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Authenticating The User Once Is No Longer Enough. Every Payment Deserves Its Own Decision Made In The Moment."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Traditional security treats the login as the gate and everything after it as trusted. Zero-trust flips that model: each transaction is evaluated on its own merits, using the device, the amount, the merchant and the history of similar payments to decide whether it should proceed or pause for a second look."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why The Login Is Not Enough"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Sessions get hijacked, devices get shared and credentials leak in breaches that have nothing to do with you. A model that trusts everything after authentication has no way to notice when the person behind the screen has changed, which is precisely the moment that matters most."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 5,
+          "documentId": "media-blog-article-1-webp",
+          "url": "/cms/blog-article-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 6,
+          "documentId": "media-blog-article-2-webp",
+          "url": "/cms/blog-article-2.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 792,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Signals Worth Evaluating"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Device binding and integrity checks that confirm the phone or laptop is the one enrolled and has not been tampered with."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Deviation from the user's normal spending pattern, including amount, time of day, merchant type and location relative to recent activity, weighted so that a single unusual signal is noted while several together trigger a step-up."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Merchant risk and first-time payee status, since the first payment to a new account is where most losses begin."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Making It Invisible"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Score silently on every transaction and only step up when the score crosses a threshold, so the majority of legitimate payments never see an interruption of any kind."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Explain the reason in plain language when you do interrupt the user, because a prompt that says why it appeared is completed, while one that appears at random is abandoned."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "The Outcome"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Fraud losses fall without adding friction for the majority of legitimate transactions, because the friction is aimed only at the handful that look wrong."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Zero-trust is often described as a security architecture, but for payments it is really a customer-experience decision: it lets a business remove blanket checks that annoy everyone and replace them with targeted ones that only the riskiest transactions will ever encounter. Done well, most users never learn it exists."
+            }
+          ]
+        }
+      ],
+      "readTime": 8,
+      "publishedDate": "2026-06-12",
+      "category": "Security",
+      "featured": false,
+      "author": {
+        "id": 2,
+        "documentId": "author-2",
+        "name": "Arthur Henry",
+        "role": "Security Engineer",
+        "bio": "Arthur explains security, compliance and infrastructure in plain language.",
+        "photo": {
+          "id": 2,
+          "documentId": "media-author-3-webp",
+          "url": "/cms/author-3.webp",
+          "alternativeText": "Arthur Henry",
+          "width": 300,
+          "height": 300,
+          "mime": "image/webp"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "documentId": "post-building-a-security-culture-your-finance-team-will-own",
+      "title": "Building A Security Culture Your Finance Team Will Own",
+      "slug": "building-a-security-culture-your-finance-team-will-own",
+      "excerpt": "Tools stop attacks. Culture stops the mistakes that let attackers in. Both need attention.",
+      "mainImage": {
+        "id": 17,
+        "documentId": "media-blog-p10-webp",
+        "url": "/cms/blog-p10.webp",
+        "alternativeText": "Building A Security Culture Your Finance Team Will Own",
+        "width": 1600,
+        "height": 1067,
+        "mime": "image/webp"
+      },
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Most Financial Breaches Start With A Convincing Email, Not A Sophisticated Exploit. The Defence Is Cultural Before It Is Technical."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Invoice fraud, payee changes and urgent transfer requests exploit people, not systems. The defence is a culture where verification is normal, questioning a request is expected and nobody is embarrassed to pause a payment, even when the request appears to come from the most senior person in the company."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Make Verification The Default"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "A bank detail change should always be confirmed through a second channel, ideally a phone call to a number you already hold rather than one in the email. When this is the rule for every change, nobody feels awkward applying it to a senior request, and the awkwardness is where fraud usually hides."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 5,
+          "documentId": "media-blog-article-1-webp",
+          "url": "/cms/blog-article-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 6,
+          "documentId": "media-blog-article-2-webp",
+          "url": "/cms/blog-article-2.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 792,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Habits That Protect Money"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Dual approval for new payees and for any transfer above a threshold the team agrees on and revisits."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A shared, searchable log of who approved what and why, so the reasoning behind a payment is available to anyone who asks later and an unusual request stands out against the pattern instead of disappearing into a busy inbox."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Regular, short simulations that reward reporting rather than punishing clicks, so people learn to speak up quickly."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "How To Get Started"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Write down the three riskiest payment paths in your company, assign an owner to each one and ask that owner to describe, in one page, how a fraudulent request would be caught today."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Review one real incident a month with the whole team, focusing on the process that let it through rather than the person who was targeted, because blame teaches silence."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why It Sticks"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Culture holds when leaders follow the same rules they set. A CEO who waits for dual approval on their own transfer teaches more than any training module."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Tools still matter, and the right controls make the safe behaviour the fast one, but a team that has practised saying wait, let me check that will catch the attack that slips past every filter. That habit is built in small moments, most of them uneventful, which is exactly why it works when the eventful one arrives."
+            }
+          ]
+        }
+      ],
+      "readTime": 6,
+      "publishedDate": "2026-05-28",
+      "category": "Security",
+      "featured": false,
+      "author": {
+        "id": 3,
+        "documentId": "author-3",
+        "name": "Sophie Turner",
+        "role": "Content Lead",
+        "bio": "Sophie covers fintech trends, growth and customer stories.",
+        "photo": {
+          "id": 3,
+          "documentId": "media-author-2-webp",
+          "url": "/cms/author-2.webp",
+          "alternativeText": "Sophie Turner",
+          "width": 300,
+          "height": 300,
+          "mime": "image/webp"
+        }
+      }
+    }
+  ],
+  "integrations": [
+    {
+      "id": 1,
+      "documentId": "integration-acme-books",
+      "name": "Acme Books",
+      "slug": "acme-books",
+      "excerpt": "Sync invoices, bills and bank feeds so your books close themselves at month-end.",
+      "logo": {
+        "id": 18,
+        "documentId": "media-logo-acme-books-svg",
+        "url": "/cms/logo-acme-books.svg",
+        "alternativeText": "Acme Books",
+        "width": 21,
+        "height": 21,
+        "mime": "image/svg+xml"
+      },
+      "category": "Accounting",
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "About The Integration"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Acme Books is the general ledger most of our customers already run on, so this integration is usually the first one a new team switches on. Connecting it to Fexiva turns every card swipe, transfer and bill payment into a coded, reconciled journal entry the moment it settles, which means finance stops re-keying transactions from statements and starts reviewing entries that are already correct."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 19,
+          "documentId": "media-integration-detail-1-webp",
+          "url": "/cms/integration-detail-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 20,
+          "documentId": "media-integration-detail-2-webp",
+          "url": "/cms/integration-detail-2.webp",
+          "alternativeText": null,
+          "width": 800,
+          "height": 1200,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "How To Connect This"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Open Settings and choose Integrations, then pick Acme Books and sign in with an administrator account. Map your Fexiva accounts to ledger accounts once and every future transaction inherits the mapping. The first sync back-fills the last ninety days so your history is complete from day one."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Get Support"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Two-way sync runs every fifteen minutes and on demand."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Category and merchant rules set in Fexiva become account codes in Acme Books automatically."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Receipts attach to journal entries as PDFs."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Sync errors are listed in one place with a one-click retry."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Chat support is available five days a week."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "image": {
+            "id": 21,
+            "documentId": "media-integration-detail-single-webp",
+            "url": "/cms/integration-detail-single.webp",
+            "alternativeText": "Acme Books integration dashboard preview in the Fexiva app",
+            "width": 1408,
+            "height": 704,
+            "mime": "image/webp"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "What Syncs Automatically"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Card transactions, transfers and bill payments arrive with tax codes, vendors and cost centres already applied, so a controller reviewing the ledger sees complete entries rather than a queue of items waiting to be coded by hand."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Vendors, customers and chart-of-accounts changes flow in both directions, and month-end lock dates are respected on both sides, so nothing Fexiva sends can ever land in a period your accountant has already closed."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why Teams Connect It First"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Teams that connect Acme Books report a close that is days shorter, because the ledger is already complete when the month ends."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "The integration is included on every Fexiva plan and needs no add-on licence from Acme. Most companies are fully mapped within an afternoon, and because every rule lives in Fexiva rather than in a spreadsheet, the person who set it up does not have to be in the room for it to keep working next quarter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "documentId": "integration-biffco-pay",
+      "name": "Biffco Pay",
+      "slug": "biffco-pay",
+      "excerpt": "Accept online and in-person payments and see settlements land in Fexiva in real time.",
+      "logo": {
+        "id": 22,
+        "documentId": "media-logo-biffco-pay-svg",
+        "url": "/cms/logo-biffco-pay.svg",
+        "alternativeText": "Biffco Pay",
+        "width": 21,
+        "height": 21,
+        "mime": "image/svg+xml"
+      },
+      "category": "Payments",
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "About The Integration"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Biffco Pay processes card, wallet and bank payments for online checkouts and point-of-sale terminals in more than thirty countries. With the Fexiva integration every payout is matched to the underlying orders as it lands, processing fees are split out into their own line automatically, and your cash forecast includes money that has been captured but is still in transit, so nobody is surprised by the timing of a settlement."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 19,
+          "documentId": "media-integration-detail-1-webp",
+          "url": "/cms/integration-detail-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 20,
+          "documentId": "media-integration-detail-2-webp",
+          "url": "/cms/integration-detail-2.webp",
+          "alternativeText": null,
+          "width": 800,
+          "height": 1200,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "How To Connect This"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "In Fexiva go to Integrations, choose Biffco Pay and paste a restricted API key generated in your Biffco dashboard. Select which Biffco accounts to import and where payouts should be booked, then confirm. Historical payouts are imported for the current financial year during the first run."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Get Support"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Payout matching runs automatically after every settlement."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Processing fees are booked to the expense account you choose, with the rate visible on each line."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Refunds and disputes are tracked as separate lines."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Failed webhooks are retried for seventy-two hours before alerting you."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Email support with a four-hour first response."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "image": {
+            "id": 21,
+            "documentId": "media-integration-detail-single-webp",
+            "url": "/cms/integration-detail-single.webp",
+            "alternativeText": "Biffco Pay integration dashboard preview in the Fexiva app",
+            "width": 1408,
+            "height": 704,
+            "mime": "image/webp"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "What Syncs Automatically"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Payouts, fees, refunds and chargebacks arrive as individual lines with the customer and order references attached, so reconciling a settlement against the orders behind it becomes a review of a matched list rather than a hunt through two exports."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Multi-currency settlements carry the exchange rate Biffco applied at the moment of conversion, and pending settlements appear in the Fexiva cash forecast the day they are captured, so treasury sees the money before it reaches the bank."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why Revenue Teams Rely On It"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Connecting Biffco Pay removes the weekly spreadsheet that used to reconcile payouts against orders by hand."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Revenue teams also gain a live view of pending settlements inside the Fexiva forecast, which changes how they plan the week: instead of waiting for money to clear before committing to a supplier payment, they can see exactly what is arriving and when. For businesses with thin margins on high volume, that visibility is often worth more than the time saved on reconciliation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "documentId": "integration-barone-bank",
+      "name": "Barone Bank",
+      "slug": "barone-bank",
+      "excerpt": "Link business accounts for live balances, instant transfers and automatic statement import.",
+      "logo": {
+        "id": 23,
+        "documentId": "media-logo-barone-bank-svg",
+        "url": "/cms/logo-barone-bank.svg",
+        "alternativeText": "Barone Bank",
+        "width": 21,
+        "height": 21,
+        "mime": "image/svg+xml"
+      },
+      "category": "Banking",
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "About The Integration"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Barone Bank is a direct bank connection rather than a screen-scraper, which is the difference between a balance that is right and a balance that was right an hour ago. Balances refresh in real time, transfers can be initiated from Fexiva under the same approval rules as card spend, and statements arrive automatically each night as PDFs, so the finance team never logs in to the bank portal just to download a file."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 19,
+          "documentId": "media-integration-detail-1-webp",
+          "url": "/cms/integration-detail-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 20,
+          "documentId": "media-integration-detail-2-webp",
+          "url": "/cms/integration-detail-2.webp",
+          "alternativeText": null,
+          "width": 800,
+          "height": 1200,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "How To Connect This"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "From Integrations choose Barone Bank and complete the bank's own consent flow in a secure window. Choose which accounts to connect and whether Fexiva may initiate payments from them. Consent renews every ninety days and Fexiva reminds you two weeks ahead so nothing silently expires."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Get Support"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Balances and transactions refresh every few minutes."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Payment initiation follows your existing Fexiva approval workflow, including dual approval where configured."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Statements are stored as PDFs against each account."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Consent renewals are flagged two weeks before they are due."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Dedicated banking support line for connection problems."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "image": {
+            "id": 21,
+            "documentId": "media-integration-detail-single-webp",
+            "url": "/cms/integration-detail-single.webp",
+            "alternativeText": "Barone Bank integration dashboard preview in the Fexiva app",
+            "width": 1408,
+            "height": 704,
+            "mime": "image/webp"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "What Syncs Automatically"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Account balances, pending and settled transactions and interest lines arrive as they happen, so the balance shown in Fexiva is the balance the bank holds, not a nightly copy of it, which is the foundation every forecast and alert is built on."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Outgoing transfers approved in Fexiva are sent to the bank with the approver, the reason and the supporting document attached, and the monthly statement is filed against the account automatically, ready for the auditor without anyone downloading it."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why Treasury Teams Prefer A Direct Link"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "A direct connection means no more downloading CSVs or waiting for a nightly batch to learn where cash actually stands."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Treasury teams use the live balance to sweep idle funds into interest-bearing accounts without leaving Fexiva, and because the approval trail lives in the same place as the balance, the sweep is documented the moment it is made. Over a year, the combination of accurate timing and less idle cash tends to pay for the finance tooling several times over."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "documentId": "integration-initech-erp",
+      "name": "Initech ERP",
+      "slug": "initech-erp",
+      "excerpt": "Push approved spend into your ERP with cost centres, projects and tax codes intact.",
+      "logo": {
+        "id": 24,
+        "documentId": "media-logo-initech-erp-svg",
+        "url": "/cms/logo-initech-erp.svg",
+        "alternativeText": "Initech ERP",
+        "width": 21,
+        "height": 21,
+        "mime": "image/svg+xml"
+      },
+      "category": "Accounting",
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "About The Integration"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Initech ERP runs procurement, inventory and finance for mid-sized companies that have outgrown a simple ledger but still want one system of record. Fexiva feeds it approved card spend and reimbursements with the cost centre, project and tax dimensions your controllers expect already attached, so nothing needs to be re-coded downstream and the ERP stays the single source of truth for every expense that touches the business."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 19,
+          "documentId": "media-integration-detail-1-webp",
+          "url": "/cms/integration-detail-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 20,
+          "documentId": "media-integration-detail-2-webp",
+          "url": "/cms/integration-detail-2.webp",
+          "alternativeText": null,
+          "width": 800,
+          "height": 1200,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "How To Connect This"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Connect using an Initech integration user with posting rights, then map Fexiva teams to Initech cost centres in the mapping screen. Choose the posting frequency you prefer, real time, hourly or end of day, and use test mode to preview the journals Fexiva would create before anything is actually posted."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Get Support"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Dimension mapping covers cost centre, project, department and location."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Posting errors returned by Initech are shown with the original message so they can be fixed without opening the ERP."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A dry-run mode previews the next batch."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Change logs record who altered a mapping and exactly when."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Enterprise support with a named contact."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "image": {
+            "id": 21,
+            "documentId": "media-integration-detail-single-webp",
+            "url": "/cms/integration-detail-single.webp",
+            "alternativeText": "Initech ERP integration dashboard preview in the Fexiva app",
+            "width": 1408,
+            "height": 704,
+            "mime": "image/webp"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "What Syncs Automatically"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Approved expenses and card transactions post as journals with every dimension filled in, and vendors created in either system appear in the other within the hour, so purchasing and finance never maintain two separate supplier lists that slowly drift apart over time."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Tax codes and rates are read from the Initech configuration rather than duplicated in Fexiva, which means a rate change made once by the tax team is applied to every new transaction without anyone updating a second table or remembering to tell another department."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why Controllers Keep Initech In Charge"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Controllers keep Initech as the source of truth while employees never have to open it, which is exactly how both groups prefer it."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Audit trails span both systems, from the card swipe on a phone to the posted journal in the ERP, with the approver and the receipt attached at every step. When an auditor asks how a number was arrived at, the answer is a single click rather than a week of emails, and that alone has convinced several finance teams to move the rest of their spend onto Fexiva."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "documentId": "integration-globex-payroll",
+      "name": "Globex Payroll",
+      "slug": "globex-payroll",
+      "excerpt": "Reimburse approved expenses through payroll and keep headcount costs in one forecast.",
+      "logo": {
+        "id": 25,
+        "documentId": "media-logo-globex-payroll-svg",
+        "url": "/cms/logo-globex-payroll.svg",
+        "alternativeText": "Globex Payroll",
+        "width": 21,
+        "height": 21,
+        "mime": "image/svg+xml"
+      },
+      "category": "Payroll",
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "About The Integration"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Globex Payroll pays teams in more than forty countries and handles the local tax, pension and reporting rules in each one. The Fexiva integration sends approved reimbursements to the next pay run automatically and pulls payroll totals back into the cash forecast, so people costs and everyday spend finally live in one view and finance can see the whole picture of what the company will pay out in the coming month."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 19,
+          "documentId": "media-integration-detail-1-webp",
+          "url": "/cms/integration-detail-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 20,
+          "documentId": "media-integration-detail-2-webp",
+          "url": "/cms/integration-detail-2.webp",
+          "alternativeText": null,
+          "width": 800,
+          "height": 1200,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "How To Connect This"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Authorise Fexiva from the Globex admin console, then pick the pay groups that should receive reimbursements and the cut-off you want to respect. Employees are matched by work email automatically, and any that cannot be matched are listed for a one-time manual link before the first run."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Get Support"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Reimbursements are sent before the Globex cut-off you choose."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Payroll totals import as a single forecast line per pay group, updated after every run in Globex."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Employee matching handles name changes automatically."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Country-specific reimbursement rules are respected in every pay group."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Support through the shared help centre."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "image": {
+            "id": 21,
+            "documentId": "media-integration-detail-single-webp",
+            "url": "/cms/integration-detail-single.webp",
+            "alternativeText": "Globex Payroll integration dashboard preview in the Fexiva app",
+            "width": 1408,
+            "height": 704,
+            "mime": "image/webp"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "What Syncs Automatically"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Approved reimbursements travel to Globex with their receipts and the approver's name, land in the correct pay group and country, and are paid with salary on the next run, so employees never have to enter bank details into a second system or chase finance for a transfer."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "New starters and leavers flow from Globex into Fexiva so cards can be issued on day one and frozen on the last day without a ticket, and pay-run totals and dates come back the other way, giving the forecast the single largest cost line in the business."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why People Teams Ask For It"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Finance stops chasing reimbursement bank details, and employees are simply paid with their salary on the date they already expect."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "The forecast finally shows payroll, the biggest cost most companies have, next to everything else rather than in a separate spreadsheet that is updated once a month. For a growing team that is hiring in several countries at once, seeing headcount cost and operating spend on the same timeline is the difference between a plan and a guess, and it arrives without anyone building a model."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "documentId": "integration-binford-tools",
+      "name": "Binford Tools",
+      "slug": "binford-tools",
+      "excerpt": "Build custom dashboards on top of Fexiva data with a live, governed connector.",
+      "logo": {
+        "id": 26,
+        "documentId": "media-logo-binford-tools-svg",
+        "url": "/cms/logo-binford-tools.svg",
+        "alternativeText": "Binford Tools",
+        "width": 21,
+        "height": 21,
+        "mime": "image/svg+xml"
+      },
+      "category": "Analytics",
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "About The Integration"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Binford Tools is a business-intelligence suite used by analysts who want to build their own dashboards rather than accept the ones a vendor ships. The Fexiva connector exposes transactions, budgets and approvals as governed tables, so an analyst can model spend alongside revenue, pipeline and operational data without exporting a single file, and the finance team keeps control over who can see which rows through the roles they already manage."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 19,
+          "documentId": "media-integration-detail-1-webp",
+          "url": "/cms/integration-detail-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 20,
+          "documentId": "media-integration-detail-2-webp",
+          "url": "/cms/integration-detail-2.webp",
+          "alternativeText": null,
+          "width": 800,
+          "height": 1200,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "How To Connect This"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Create a read-only API key in Fexiva with the Analytics scope and add it as a data source inside Binford. Tables refresh on a schedule you set, with a full load on the first pull and incremental loads afterwards, so even a large history is available in Binford within a few minutes."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Get Support"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Row-level permissions follow your Fexiva roles."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Schema changes are versioned and announced in advance so dashboards never break without warning."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Sample dashboards ship for spend and budgets."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Query limits are generous and published on the developer page."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Community forum plus email support."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "image": {
+            "id": 21,
+            "documentId": "media-integration-detail-single-webp",
+            "url": "/cms/integration-detail-single.webp",
+            "alternativeText": "Binford Tools integration dashboard preview in the Fexiva app",
+            "width": 1408,
+            "height": 704,
+            "mime": "image/webp"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "What Syncs Automatically"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Transactions, categories, merchants and receipt metadata arrive as clean tables with stable column names, so an analyst can join spend to revenue or headcount data in Binford and trust that next month's refresh will not rename a field and quietly break the model."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Budgets, actuals and variance by team update with every approval, and approval timings and policy exceptions are exposed as their own table, which makes it possible to measure how long decisions take and where the process is slowing people down."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why Analysts Stop Asking For Exports"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Analysts stop asking finance for exports and build directly on live data, which frees both teams from a weekly ritual nobody enjoyed."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Leadership dashboards show spend next to pipeline and headcount for the first time, and because the data refreshes on its own, the Monday review is about what the numbers mean rather than whether they are current. Companies that connect Binford typically retire two or three manually maintained reports in the first month and never rebuild them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "documentId": "integration-northwind-crm",
+      "name": "Northwind CRM",
+      "slug": "northwind-crm",
+      "excerpt": "Attribute travel, gifts and client spend to the deals and accounts they support.",
+      "logo": {
+        "id": 27,
+        "documentId": "media-logo-northwind-crm-svg",
+        "url": "/cms/logo-northwind-crm.svg",
+        "alternativeText": "Northwind CRM",
+        "width": 21,
+        "height": 21,
+        "mime": "image/svg+xml"
+      },
+      "category": "CRM",
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "About The Integration"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Northwind CRM holds your accounts, contacts and open opportunities, and for most sales teams it is the tool they live in all day. Connected to Fexiva, the spend that supports a deal, such as travel, client meals and gifts, is tagged to the opportunity it relates to at the moment it happens, which gives revenue leaders a true cost of sale and gives finance a clean attribution without a single manual re-class at month end."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 19,
+          "documentId": "media-integration-detail-1-webp",
+          "url": "/cms/integration-detail-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 20,
+          "documentId": "media-integration-detail-2-webp",
+          "url": "/cms/integration-detail-2.webp",
+          "alternativeText": null,
+          "width": 800,
+          "height": 1200,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "How To Connect This"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Connect with a Northwind administrator login and choose which pipelines should sync into Fexiva. Cardholders can then tag any transaction to an opportunity from the mobile app in a couple of taps, and every tag flows back to Northwind as an activity on the deal's timeline."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Get Support"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Deal and account lists refresh hourly."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Spend tags appear on the Northwind opportunity timeline with the amount and receipt attached."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Closed-won deals lock further tagging automatically."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Duplicate accounts are flagged for merge before they cause confusion."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Support through the Northwind marketplace listing."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "image": {
+            "id": 21,
+            "documentId": "media-integration-detail-single-webp",
+            "url": "/cms/integration-detail-single.webp",
+            "alternativeText": "Northwind CRM integration dashboard preview in the Fexiva app",
+            "width": 1408,
+            "height": 704,
+            "mime": "image/webp"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "What Syncs Automatically"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Accounts, opportunities and their owners arrive in Fexiva so a cardholder only ever sees the deals they are working on, and tagged spend with receipts travels back to Northwind where it sits on the timeline next to the calls and emails that make up the rest of the deal history."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Cost-of-sale summaries per deal and per account are calculated continuously and written to a custom field in Northwind, so a sales leader reviewing a pipeline can see what winning each account is costing without opening a finance tool or asking for a report."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why Sales Leaders Ask For The Numbers"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Sales leaders finally see what it actually costs to win a customer, deal by deal, rather than as a blended quarterly figure."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Finance gets clean attribution without a single manual re-class, and the two teams stop arguing about whose spreadsheet is right because there is only one number and it was captured at the moment the money was spent. Over a few quarters that data changes how territories are planned and which accounts are worth an in-person visit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "documentId": "integration-vandelay-ledger",
+      "name": "Vandelay Ledger",
+      "slug": "vandelay-ledger",
+      "excerpt": "A lightweight ledger for early-stage teams that want bookkeeping without the overhead.",
+      "logo": {
+        "id": 28,
+        "documentId": "media-logo-vandelay-ledger-svg",
+        "url": "/cms/logo-vandelay-ledger.svg",
+        "alternativeText": "Vandelay Ledger",
+        "width": 21,
+        "height": 21,
+        "mime": "image/svg+xml"
+      },
+      "category": "Accounting",
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "About The Integration"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Vandelay Ledger is a lightweight ledger built for companies that are not ready for a full ERP but have outgrown a shoebox of receipts. Fexiva becomes its transaction feed, so a founder or a part-time bookkeeper can keep accurate books in a few minutes a week, and when the company eventually needs something larger the history migrates cleanly because it was categorised properly from the first month rather than reconstructed later."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 19,
+          "documentId": "media-integration-detail-1-webp",
+          "url": "/cms/integration-detail-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 20,
+          "documentId": "media-integration-detail-2-webp",
+          "url": "/cms/integration-detail-2.webp",
+          "alternativeText": null,
+          "width": 800,
+          "height": 1200,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "How To Connect This"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Sign in to Vandelay from the Fexiva Integrations page and accept the default mapping, which covers most early-stage companies out of the box. Adjust any category once and Fexiva remembers the rule for every future transaction. Everything since your company start date can be imported in one pass."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Get Support"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Nightly sync with a manual refresh whenever you need it."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Simple category mapping with suggestions based on merchant, so most transactions need no attention at all."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Receipts attach automatically."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Year-end export in the formats accountants actually ask for."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Email support with a public status page."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "image": {
+            "id": 21,
+            "documentId": "media-integration-detail-single-webp",
+            "url": "/cms/integration-detail-single.webp",
+            "alternativeText": "Vandelay Ledger integration dashboard preview in the Fexiva app",
+            "width": 1408,
+            "height": 704,
+            "mime": "image/webp"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "What Syncs Automatically"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Every card and account transaction lands in Vandelay already categorised, with the receipt attached and the merchant normalised, so the weekly bookkeeping session becomes a quick review of a handful of exceptions rather than a session of typing numbers from a bank statement."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Monthly summaries for investors and the year-end export are generated from the same data, which means the numbers a founder shares with the board are the numbers the accountant files, and nobody has to explain why two versions of the same month look different."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why Founders Start Here"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Founders keep bookkeeping under control before they can afford a finance hire, without learning an accounting system to do it."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "When it is time to upgrade, the history migrates cleanly to a larger system because it was coded consistently from day one, and the categories, vendors and receipts come with it. Several customers have moved from Vandelay to Initech ERP through Fexiva without a single re-keyed transaction, which is exactly the kind of boring outcome an early-stage finance stack should deliver."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "documentId": "integration-umbrella-insights",
+      "name": "Umbrella Insights",
+      "slug": "umbrella-insights",
+      "excerpt": "Benchmark your spend against similar companies and get alerts when a category drifts.",
+      "logo": {
+        "id": 29,
+        "documentId": "media-logo-umbrella-insights-svg",
+        "url": "/cms/logo-umbrella-insights.svg",
+        "alternativeText": "Umbrella Insights",
+        "width": 21,
+        "height": 21,
+        "mime": "image/svg+xml"
+      },
+      "category": "Analytics",
+      "body": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "About The Integration"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Umbrella Insights compares anonymised spend patterns across thousands of companies to show you where your costs sit relative to businesses of a similar size and stage. Connected to Fexiva, it tells you when software subscriptions, travel or vendor concentration drift away from your peers, and it does so with real category totals rather than survey estimates, which makes the benchmarks useful in an actual negotiation."
+            }
+          ]
+        }
+      ],
+      "articleImages": [
+        {
+          "id": 19,
+          "documentId": "media-integration-detail-1-webp",
+          "url": "/cms/integration-detail-1.webp",
+          "alternativeText": null,
+          "width": 1400,
+          "height": 933,
+          "mime": "image/webp"
+        },
+        {
+          "id": 20,
+          "documentId": "media-integration-detail-2-webp",
+          "url": "/cms/integration-detail-2.webp",
+          "alternativeText": null,
+          "width": 800,
+          "height": 1200,
+          "mime": "image/webp"
+        }
+      ],
+      "bodyContinued": [
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "How To Connect This"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Enable the integration from the Integrations page and pick the benchmarking cohort that fits you, by industry, headcount band and region. Data is shared in aggregate only, never at transaction level, and sharing can be paused from the admin settings at any time without losing your existing reports."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Get Support"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Weekly benchmark digest by email and inside the app."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Alerts when a category moves more than a threshold you set, compared with your own history or your cohort."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Vendor overlap reports across your tools."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Data-sharing controls managed at the admin level."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Support through the Umbrella customer portal."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "image": {
+            "id": 21,
+            "documentId": "media-integration-detail-single-webp",
+            "url": "/cms/integration-detail-single.webp",
+            "alternativeText": "Umbrella Insights integration dashboard preview in the Fexiva app",
+            "width": 1408,
+            "height": 704,
+            "mime": "image/webp"
+          },
+          "children": [
+            {
+              "type": "text",
+              "text": ""
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "What Syncs Automatically"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Category totals by month and the vendor list with contract renewal dates flow to Umbrella on a schedule you control, and come back as a ranked view of where you are spending more or less than companies like yours, so the conversation moves from feelings about cost to evidence about it."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Headcount band is used only to normalise the comparison, so a fifty-person company is measured against other fifty-person companies rather than against enterprises, and the results update each month as your own numbers and the cohort's numbers change together."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why Procurement Teams Use It Before Renewals"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Teams discover duplicate tools and over-market rates within the first month, usually in categories nobody thought to examine."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Renewal negotiations start with data rather than guesswork, and because the alerts run continuously, a category that starts to drift is noticed in the month it happens rather than at the annual budget review. Most customers report that the first quarter of savings covers the integration many times over, and the reports become part of every renewal discussion after that."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

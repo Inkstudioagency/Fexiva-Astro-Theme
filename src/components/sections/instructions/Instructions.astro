@@ -1,0 +1,129 @@
+---
+const envExample = `# Astro/.env
+STRAPI_URL=http://localhost:1337
+STRAPI_API_TOKEN=your-read-only-api-token
+PUBLIC_FORM_ENDPOINT=https://example.com/api/forms
+SITE_URL=https://example.com`;
+
+const counterExample = `<!-- any element whose text contains a number -->
+<div data-counter="true">$5B</div>
+<div data-counter="true">98%</div>
+<div data-counter="true">1,200+</div>`;
+---
+
+<section class="section_instructions">
+  <div class="w-layout-blockcontainer container-main w-container">
+    <div page-load-4="" class="instructions-layout">
+      <nav class="instructions-nav">
+        <a href="#getting-started" class="instructions-nav-link">Getting started</a>
+        <a href="#variables" class="instructions-nav-link">Styles</a>
+        <a href="#components" class="instructions-nav-link">Components</a>
+        <a href="#cms" class="instructions-nav-link">Strapi CMS</a>
+        <a href="#form-setup" class="instructions-nav-link">Forms</a>
+        <a href="#icons" class="instructions-nav-link">SVG icons</a>
+        <a href="#gsap-animations" class="instructions-nav-link">GSAP animations</a>
+        <a href="#utility-pages" class="instructions-nav-link">Utility pages</a>
+      </nav>
+      <div class="instructions-content">
+        <div id="getting-started" class="instructions-block">
+          <h2 class="heading-style-4">Getting Started</h2>
+          <p class="text-size-regular">Fexiva is an Astro theme. Every page is static HTML generated at build time, and the Blog and Integrations content is pulled from a Strapi CMS. The original interactions run on the bundled webflow.js, GSAP and Lenis scripts, so no extra setup is needed.</p>
+          <ol role="list" class="utility-list">
+            <li class="utility-list-item">Start Strapi from the strapi folder with npm run develop, then start the theme from the Astro folder with npm run dev.</li>
+            <li class="utility-list-item">Open the Style Guide page first. It shows every heading, text size, colour, button and form field the theme uses.</li>
+            <li class="utility-list-item">Edit src/config/site.ts to change the site name, default SEO text, navigation, footer links and social profiles.</li>
+            <li class="utility-list-item">Replace the logo files in public/images (fexiva-logo.svg and fexiva-wordmark.svg) and the favicons next to them.</li>
+          </ol>
+          <h3 class="heading-style-5">Environment variables</h3>
+          <pre class="instructions-code w-code-block" style="display:block;overflow-x:auto;background:#2b2b2b;color:#f8f8f2;padding:0.5em"><code style="white-space:pre-wrap" set:text={envExample} /></pre>
+        </div>
+        <div id="variables" class="instructions-block">
+          <h2 class="heading-style-4">Colours, Spacing &amp; Typography</h2>
+          <p class="text-size-regular">Every colour, font, size, spacer and radius is a CSS custom property declared at the top of src/styles/fexiva.webflow.css. Change the variable once and the whole site updates.</p>
+          <ul role="list" class="utility-list">
+            <li class="utility-list-item"><strong>Color</strong> holds the primitives (Primary, Gray, White and Accent scales) and the semantic tokens that reference them: Text Color, Background Color, Border Color and Button Color.</li>
+            <li class="utility-list-item"><strong>Sizes</strong> holds the Spacer scale, container widths and radius tokens, with media-query overrides for tablet and both mobile widths.</li>
+            <li class="utility-list-item"><strong>Typography</strong> holds the two font families, weights, the H1 to H6 and paragraph sizes, line heights and letter spacing.</li>
+          </ul>
+          <div class="instructions-callout">To rebrand quickly, change the Primary Color 500 variable for the accent, Primary Color 900 for the page background and Primary Color 700 for cards. The semantic tokens pick the new values up automatically.</div>
+        </div>
+        <div id="components" class="instructions-block">
+          <h2 class="heading-style-4">Components</h2>
+          <p class="text-size-regular">Every page in src/pages is assembled from section components in src/components/sections. Edit a shared component once to update every page that uses it.</p>
+          <ul role="list" class="utility-list">
+            <li class="utility-list-item"><strong>Header</strong> and <strong>Footer</strong> live in src/components/global and read their links from src/config/site.ts. The current page is highlighted automatically.</li>
+            <li class="utility-list-item"><strong>CTA</strong>, <strong>FAQ</strong>, <strong>Blog section</strong> and <strong>Utility hero</strong> live in src/components/sections/shared.</li>
+            <li class="utility-list-item"><strong>Blog card</strong>, <strong>Post meta</strong> and <strong>Integration card</strong> render CMS items and are reused across the Home, About, Blog and detail pages.</li>
+            <li class="utility-list-item">The BaseLayout in src/layouts sets the SEO tags, fonts, favicons and scripts for every page.</li>
+          </ul>
+        </div>
+        <div id="cms" class="instructions-block">
+          <h2 class="heading-style-4">Strapi CMS</h2>
+          <p class="text-size-regular">Three Strapi collection types power the dynamic pages. Each blog post and integration gets its own page at /blog/slug and /integrations/slug, with SEO tags filled from the entry. Until STRAPI_URL is set, the theme renders the bundled sample content from src/data, so it works out of the box.</p>
+          <ul role="list" class="utility-list">
+            <li class="utility-list-item"><strong>Blog Posts</strong>: title, slug, excerpt, main image, category, author, published date, read time, rich-text body, article images, continued body and a featured switch used by the Blog page hero.</li>
+            <li class="utility-list-item"><strong>Authors</strong>: name, photo, role and bio. Each post links to one author.</li>
+            <li class="utility-list-item"><strong>Integrations</strong>: name, slug, logo (SVG), short description, category, rich-text body, article images and continued body.</li>
+          </ul>
+          <div class="instructions-callout">Publish an entry in Strapi and it appears in the lists. In development the pages refresh with every request; for production, rebuild the site after publishing (a Strapi webhook to your host's build hook does this automatically). Keep article sub-headings at Heading 4 for a consistent look.</div>
+        </div>
+        <div id="form-setup" class="instructions-block">
+          <h2 class="heading-style-4">Forms</h2>
+          <p class="text-size-regular">All forms post to the URL in the PUBLIC_FORM_ENDPOINT environment variable, so you can connect any form backend. Without it, the forms run in demo mode and show the success message without sending data.</p>
+          <ul role="list" class="utility-list">
+            <li class="utility-list-item"><strong>Contact form</strong> on the Contact page with name, email, service select and message fields. Success and error messages are styled with the contact-form-success and contact-form-error classes.</li>
+            <li class="utility-list-item"><strong>Newsletter form</strong> inside the Footer component.</li>
+            <li class="utility-list-item"><strong>Password form</strong> on the 401 page. It is a design-only page: add protection on your host (for example basic auth) if you need it.</li>
+          </ul>
+          <div class="instructions-callout">Keep the submit buttons as native input elements with the primary-button class, so the waiting text and the success and error states keep working.</div>
+        </div>
+        <div id="icons" class="instructions-block">
+          <h2 class="heading-style-4">SVG Icons</h2>
+          <p class="text-size-regular">Interface icons are inline SVG elements inside the section components. They use the current text colour, so you recolour an icon by changing the color of the icon or its parent in CSS.</p>
+          <ol role="list" class="utility-list">
+            <li class="utility-list-item">Find the icon in its section component (for example feature-card-icon-svg or contact-info-icon-svg).</li>
+            <li class="utility-list-item">To swap the glyph, paste a new SVG that uses stroke or fill set to currentColor, then give it the same class so it keeps its size.</li>
+            <li class="utility-list-item">Social icons in the Footer and Contact page are SVG files in public/images. Replace the files or change the paths in src/config/site.ts.</li>
+          </ol>
+        </div>
+        <div id="gsap-animations" class="instructions-block">
+          <h2 class="heading-style-4">How To Edit GSAP Animations</h2>
+          <p class="text-size-regular">Fexiva uses one small GSAP script: a number counter that counts each statistic up from zero the first time it scrolls into view. It lives in src/components/global/Scripts.astro, under the comment “Counter animation”.</p>
+          <h3 class="heading-style-5">Element map</h3>
+          <ul role="list" class="utility-list">
+            <li>Home → Hero → <strong>hero-stats-number</strong> (2 elements, “120K”)</li>
+            <li>Home → About → <strong>about-stat-number</strong> (3 elements, “$5B”, “120”, “75”)</li>
+            <li>Each of these carries the attribute <strong>data-counter = true</strong>. The script reads the visible text, keeps any prefix (“$”) and suffix (“K”, “B”, “%”), and animates only the number in between. Thousands separators and one decimal place are preserved automatically.</li>
+          </ul>
+          <h3 class="heading-style-5">Adding a counter</h3>
+          <pre class="instructions-code w-code-block" style="display:block;overflow-x:auto;background:#2b2b2b;color:#f8f8f2;padding:0.5em"><code style="white-space:pre-wrap" set:text={counterExample} /></pre>
+          <h3 class="heading-style-5">Values you can change</h3>
+          <ul role="list" class="utility-list">
+            <li><strong>duration: 1.8</strong> — how many seconds the count takes. Keep it between 0.8 and 3.</li>
+            <li><strong>ease: &quot;power2.out&quot;</strong> — the easing curve. Try &quot;power1.out&quot; for a gentler finish or &quot;expo.out&quot; for a snappier one.</li>
+            <li><strong>start: &quot;top 88%&quot;</strong> — when the count begins. &quot;top 88%&quot; fires as the number reaches the lower part of the viewport; &quot;top 100%&quot; fires the moment it enters.</li>
+            <li><strong>once: true</strong> — the count plays a single time. Set it to false to replay every time the number scrolls back into view.</li>
+            <li><strong>toFixed(1)</strong> — decimals shown for values such as “4.9”. Change the 1 to 2 for two decimal places.</li>
+          </ul>
+          <h3 class="heading-style-5">How to remove it safely</h3>
+          <ol role="list" class="utility-list">
+            <li>Open src/components/global/Scripts.astro.</li>
+            <li>Delete the script block that starts with the comment “Counter animation”. Do not touch the scripts above it.</li>
+            <li>The statistics now render as static text with exactly the same layout, spacing and styling — nothing on the page depends on the script.</li>
+            <li>Optional: remove the data-counter attributes from the number elements so the site carries no unused attributes.</li>
+          </ol>
+          <div class="instructions-callout">The script expects GSAP and ScrollTrigger to be loaded first. Both are served from public/js/vendor and included by Scripts.astro, so keep those script tags in place.</div>
+        </div>
+        <div id="utility-pages" class="instructions-block is-last">
+          <h2 class="heading-style-4">Utility Pages</h2>
+          <p class="text-size-regular">The Style Guide, Licenses, Changelog, Instructions, 404 and 401 pages are ready to use. All of them carry a noindex meta tag and are left out of the sitemap so search engines skip them.</p>
+          <ul role="list" class="utility-list">
+            <li class="utility-list-item">The 404 page keeps the shared Header and Footer so visitors can always find their way back.</li>
+            <li class="utility-list-item">The 401 page shows the password screen design restyled with the theme classes.</li>
+            <li class="utility-list-item">Update the Licenses page if you add assets from a new source, and log your own changes on the Changelog page.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

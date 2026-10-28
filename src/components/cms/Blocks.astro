@@ -1,0 +1,56 @@
+---
+/**
+ * Renders Strapi "Blocks" rich text to the same HTML the original Webflow
+ * rich-text field produced (h4 / p / ul / ol / li / image figure).
+ */
+import { mediaUrl, type Block, type InlineNode } from '../../lib/strapi';
+
+interface Props {
+  blocks?: Block[] | null;
+}
+
+const { blocks = [] } = Astro.props;
+
+const isInline = (node: Block | InlineNode): node is InlineNode => node.type === 'text' || node.type === 'link';
+---
+
+{
+  (blocks ?? []).map((block) => {
+    switch (block.type) {
+      case 'heading': {
+        const Tag = `h${block.level}` as const;
+        return <Tag><Astro.self blocks={block.children as any} /></Tag>;
+      }
+      case 'paragraph':
+        return <p><Astro.self blocks={block.children as any} /></p>;
+      case 'quote':
+        return <blockquote><Astro.self blocks={block.children as any} /></blockquote>;
+      case 'code':
+        return <pre><code><Astro.self blocks={block.children as any} /></code></pre>;
+      case 'list': {
+        const Tag = block.format === 'ordered' ? 'ol' : 'ul';
+        return <Tag><Astro.self blocks={block.children} /></Tag>;
+      }
+      case 'list-item':
+        return <li><Astro.self blocks={block.children as any} /></li>;
+      case 'image': {
+        const max = block.image.width ? `${block.image.width}px` : undefined;
+        return (
+          <figure class="w-richtext-figure-type-image w-richtext-align-fullwidth" style={max ? `max-width:${max}` : undefined} data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width={max}><div><img alt={block.image.alternativeText ?? ''} src={mediaUrl(block.image)} width="auto" height="auto" loading="auto" /></div></figure>
+        );
+      }
+      default: {
+        const node = block as unknown as InlineNode;
+        if (!isInline(node)) return null;
+        if (node.type === 'link') return <a href={node.url}><Astro.self blocks={node.children as any} /></a>;
+        let out: any = node.text;
+        if (node.code) out = <code>{out}</code>;
+        if (node.strikethrough) out = <s>{out}</s>;
+        if (node.underline) out = <u>{out}</u>;
+        if (node.italic) out = <em>{out}</em>;
+        if (node.bold) out = <strong>{out}</strong>;
+        return out;
+      }
+    }
+  })
+}

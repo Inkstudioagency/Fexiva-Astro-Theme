@@ -1,0 +1,74 @@
+---
+import { footerColumns, site, socialLinks } from '../../config/site';
+import { formAction } from '../../lib/forms';
+import { isCurrent } from '../../lib/nav';
+
+interface Props {
+  /** Webflow page id of the current page (used by the form markup). */
+  pageId: string;
+}
+
+const { pageId } = Astro.props;
+const path = Astro.url.pathname;
+---
+
+<footer class="section_footer">
+  <div class="footer-glow"></div>
+  <div class="w-layout-blockcontainer container-main w-container">
+    <div class="footer-main">
+      <div class="footer-top">
+        <div class="footer-link-columns">
+          {
+            footerColumns.map((column) => (
+              <div id={column.id} class="footer-link-column">
+                <div class="footer-column-title">{column.title}</div>
+                <div class="footer-link-list">
+                  {column.links.map((link) => {
+                    const current = isCurrent(link.href, path);
+                    return (
+                      <a href={link.href} aria-current={current ? 'page' : undefined} class:list={['footer-link', { 'w--current': current }]}>
+                        {link.label}
+                      </a>
+                    );
+                  })}
+                </div>
+              </div>
+            ))
+          }
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-newsletter">
+          <div class="footer-newsletter-title">Join our mail list for latest updates</div>
+          <div class="footer-form w-form">
+            <form method="get" action={formAction} name="" data-name="Newsletter Form" class="footer-form" data-wf-page-id={pageId} data-wf-element-id="8e6f91ed-67d1-b81a-cd55-ae0825093ddd"><input class="footer-input w-input" maxlength="256" name="Email" data-name="Email" aria-label="footer-input" placeholder="Enter your email address" type="email" id="field" required="" /><input type="submit" data-wait="Please wait..." class="primary-button w-button" value="Subscribe" /></form>
+            <div class="w-form-done">
+              <div>Thank you! Your submission has been received!</div>
+            </div>
+            <div class="w-form-fail">
+              <div>Oops! Something went wrong while submitting the form.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-social-grid">
+          {
+            socialLinks.map((social) => (
+              <a href={social.href} aria-label={social.label} class="footer-social-link w-inline-block">
+                <img src={social.icon} loading="lazy" alt={social.label} class="footer-social-icon" />
+              </a>
+            ))
+          }
+          <a href="/contact" class="footer-social-link is-wide">Contact us</a>
+        </div>
+        <div class="footer-brand-block"><img src="/images/fexiva-wordmark.svg" loading="lazy" alt="Fexiva wordmark" class="footer-wordmark" />
+          <div class="footer-copyright-bar">
+            <div class="footer-copyright-text">{site.copyright}</div>
+            <div class="footer-copyright-text">{site.credits.map((c) => (<Fragment>{c.prefix}<a href={c.href} class="footer-inline-link">{c.label}</a></Fragment>))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

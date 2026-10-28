@@ -1,0 +1,21 @@
+---
+import PostMeta from '../../blog/PostMeta.astro';
+import { mediaUrl, type BlogPost } from '../../../lib/strapi';
+
+interface Props {
+  post: BlogPost;
+}
+
+const { post } = Astro.props;
+---
+
+<section class="section_blog-details-hero">
+  <div class="hero-glow"></div>
+  <div class="container-main blog-detail-hero">
+    <div class="blog-detail-header">
+      <h1 hero-title="" class="heading-style-1 is-blog-detail">{post.title}</h1>
+      <PostMeta page-load-2="" post={post} light />
+    </div>
+    <div page-load-3="" class="blog-detail-image-wrapper"><img src={mediaUrl(post.mainImage)} alt={post.mainImage?.alternativeText || post.title} class="blog-detail-image" /></div>
+  </div>
+</section>

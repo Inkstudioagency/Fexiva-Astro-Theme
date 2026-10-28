@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="116" height="116" viewBox="0 0 116 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="peru" clip-path="url(#clip0_0_346)">
+<path id="Vector" d="M58 116C90.0325 116 116 90.0325 116 58C116 25.9675 90.0325 0 58 0C25.9675 0 0 25.9675 0 58C0 90.0325 25.9675 116 58 116Z" fill="#F0F0F0"/>
+<g id="Group">
+<path id="Vector_2" d="M116 58C116 33.0623 100.26 11.8025 78.1738 3.60778V112.393C100.26 104.197 116 82.9382 116 58V58Z" fill="#D80027"/>
+<path id="Vector_3" d="M0 58C0 82.9382 15.7398 104.197 37.8262 112.393V3.60778C15.7398 11.8025 0 33.0623 0 58V58Z" fill="#D80027"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_346">
+<rect width="116" height="116" fill="white"/>
+</clipPath>
+</defs>
+</svg>

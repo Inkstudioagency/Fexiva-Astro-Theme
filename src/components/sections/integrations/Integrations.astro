@@ -1,0 +1,21 @@
+---
+import DynList from '../../cms/DynList.astro';
+import IntegrationCard from '../../integrations/IntegrationCard.astro';
+import type { Integration } from '../../../lib/strapi';
+
+interface Props {
+  integrations: Integration[];
+}
+
+const { integrations } = Astro.props;
+---
+
+<section class="section_integrations bottom-gap-none">
+  <div class="hero-glow"></div>
+  <div class="container-main integrations-content">
+    <h1 hero-title="" class="heading-style-1 is-integrations">Connect With Your Favorite Finance Tools.</h1>
+    <DynList itemsClass="integrations-list" count={integrations.length}>
+      {integrations.map((integration) => <IntegrationCard integration={integration} />)}
+    </DynList>
+  </div>
+</section>

@@ -1,0 +1,51 @@
+---
+// Client-side handler for every `.w-form` form. Reproduces Webflow's submit UX
+// (button "data-wait" text, hide form + show .w-form-done, or show .w-form-fail)
+// while posting to the endpoint configured in PUBLIC_FORM_ENDPOINT.
+---
+
+<script>
+  document.addEventListener('submit', async (event) => {
+    const form = event.target;
+    if (!(form instanceof HTMLFormElement)) return;
+    const wrapper = form.closest('.w-form');
+    if (!wrapper || form.classList.contains('w-password-page')) return;
+
+    event.preventDefault();
+    const done = wrapper.querySelector<HTMLElement>(':scope > .w-form-done');
+    const fail = wrapper.querySelector<HTMLElement>(':scope > .w-form-fail');
+    const button = form.querySelector<HTMLInputElement>('[type="submit"][data-wait]');
+    const label = button?.value;
+
+    if (fail) fail.style.display = 'none';
+    if (button?.dataset.wait) button.value = button.dataset.wait;
+
+    const endpoint = form.getAttribute('action');
+    let ok = true;
+    if (endpoint && endpoint !== '#') {
+      try {
+        const response = await fetch(endpoint, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { Accept: 'application/json' },
+        });
+        ok = response.ok;
+      } catch {
+        ok = false;
+      }
+    }
+
+    if (button && label) button.value = label;
+    if (ok) {
+      form.style.display = 'none';
+      if (done) {
+        done.style.display = 'block';
+        done.focus();
+      }
+      form.reset();
+    } else if (fail) {
+      fail.style.display = 'block';
+      fail.focus();
+    }
+  });
+</script>

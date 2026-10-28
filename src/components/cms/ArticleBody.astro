@@ -1,0 +1,38 @@
+---
+/**
+ * Shared article layout for blog posts and integrations:
+ * rich text → image gallery (multi-image field) → continued rich text.
+ */
+import Blocks from './Blocks.astro';
+import DynList from './DynList.astro';
+import { mediaUrl, type BlocksContent, type StrapiMedia } from '../../lib/strapi';
+
+interface Props {
+  body: BlocksContent | null;
+  images: StrapiMedia[] | null;
+  bodyContinued: BlocksContent | null;
+  /** Fallback alt text for gallery images, receives the 1-based index. */
+  imageAlt: (index: number) => string;
+  /** Reveal attribute names for the three blocks (they differ between the two templates). */
+  reveals: [string, string, string];
+  imagesClass?: string;
+}
+
+const { body, images, bodyContinued, imageAlt, reveals, imagesClass } = Astro.props;
+const gallery = images ?? [];
+const [r1, r2, r3] = reveals;
+---
+
+<div class="blog-article">
+  <div {...{ [r1]: '' }} class="blog-rich-text w-richtext"><Blocks blocks={body} /></div>
+  <DynList {...{ [r2]: '' }} itemsClass={['blog-article-images', imagesClass].filter(Boolean).join(' ')} count={gallery.length}>
+    {
+      gallery.map((image, i) => (
+        <div role="listitem" class="blog-article-image-item w-dyn-item">
+          <img src={mediaUrl(image)} loading="lazy" alt={image.alternativeText || imageAlt(i + 1)} class="blog-article-image" />
+        </div>
+      ))
+    }
+  </DynList>
+  <div {...{ [r3]: '' }} class="blog-rich-text w-richtext"><Blocks blocks={bodyContinued} /></div>
+</div>

@@ -1,0 +1,28 @@
+---
+import { mediaUrl, type Integration } from '../../../lib/strapi';
+
+interface Props {
+  integration: Integration;
+}
+
+const { integration } = Astro.props;
+---
+
+<section class="section_blog-hero">
+  <div class="hero-glow"></div>
+  <div class="container-main integration-hero-content">
+    <div class="blog-detail-header">
+      <div class="integration-title">
+        <h1 hero-title="" class="heading-style-1 is-blog-detail">Connect With</h1>
+        <div hero-title="" class="heading-style-1 is-blog-detail">{integration.name}</div>
+      </div>
+    </div>
+    <div page-load-3="" class="integration-connector">
+      <div class="integration-connector-tile"><svg height="64" width="64" fill="none" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" class="integration-connector-icon integration-connector-icon">
+          <path fill="currentColor" d="M32 64C49.6731 64 64 49.6731 64 32C64 14.3269 49.6731 0 32 0C14.3268 0 0 14.3269 0 32C0 49.6731 14.3268 64 32 64ZM41.9829 14.9069C42.4688 13.181 40.7938 12.1602 39.264 13.2501L17.909 28.4634C16.2499 29.6453 16.5109 32 18.301 32H23.9026C23.9146 32 23.9243 31.9903 23.9243 31.9782C23.9243 31.9662 23.9341 31.9565 23.9461 31.9565H26.1871C27.8617 31.9565 28.2618 34.2931 26.6826 34.8503C26.2257 35.0115 25.8758 35.3848 25.7446 35.8512L22.0171 49.0931C21.5312 50.8192 23.2061 51.8398 24.736 50.7499L46.091 35.5368C47.7501 34.3549 47.489 32 45.699 32C41.4186 32 38.3222 27.9117 39.482 23.7913L41.9829 14.9069Z" clip-rule="evenodd" fill-rule="evenodd"></path>
+        </svg></div>
+      <div class="integration-connector-bar"></div>
+      <div class="integration-connector-tile"><img src={mediaUrl(integration.logo)} alt={integration.logo?.alternativeText || integration.name} class="integration-connector-logo" /></div>
+    </div>
+  </div>
+</section>

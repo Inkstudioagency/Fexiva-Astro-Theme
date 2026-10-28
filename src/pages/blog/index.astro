@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BlogHero from '../../components/sections/blog/BlogHero.astro';
+import BlogLatest from '../../components/sections/blog/BlogLatest.astro';
+import Faq from '../../components/sections/shared/Faq.astro';
+import { getBlogPosts } from '../../lib/strapi';
+
+const posts = await getBlogPosts();
+---
+
+<BaseLayout pageId="6aaadbb921701172b8f86e1c" title="Blog" description="Read the Fexiva blog for fintech news, product updates, security guides and company stories that help finance teams manage spend smarter every single day.">
+  <BlogHero posts={posts} />
+  <BlogLatest posts={posts} />
+  <Faq />
+</BaseLayout>

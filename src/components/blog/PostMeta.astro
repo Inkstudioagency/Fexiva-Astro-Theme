@@ -1,0 +1,23 @@
+---
+import { readTimeLabel } from '../../lib/blog';
+import { mediaUrl, type BlogPost } from '../../lib/strapi';
+import type { HTMLAttributes } from 'astro/types';
+
+interface Props extends HTMLAttributes<'div'> {
+  post: BlogPost;
+  /** Light pill style used on dark image overlays and the article hero. */
+  light?: boolean;
+}
+
+const { post, light = false, ...attrs } = Astro.props;
+const author = post.author;
+---
+
+<div {...attrs} class="blog-card-meta">
+  <div class:list={['blog-card-author', { 'is-light': light }]}><img src={mediaUrl(author?.photo)} alt={author?.photo?.alternativeText || author?.name || ''} class="blog-card-author-photo" />
+    <div class:list={['blog-card-meta-text', { 'is-dark': light }]}>{author?.name}</div>
+  </div>
+  <div class:list={['blog-card-read-time', { 'is-light': light }]}>
+    <div class:list={['blog-card-meta-text', { 'is-dark': light }]}>{readTimeLabel(post)}</div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Integrations from '../../components/sections/integrations/Integrations.astro';
+import Cta from '../../components/sections/shared/Cta.astro';
+import Faq from '../../components/sections/shared/Faq.astro';
+import { getIntegrations } from '../../lib/strapi';
+
+const integrations = await getIntegrations();
+---
+
+<BaseLayout pageId="6aaae7865da77dbef0c9a262" title="Integrations" description="Connect Fexiva with the accounting, payments, banking, payroll, CRM and analytics tools your team already uses. Sync data in minutes with no engineering work.">
+  <Integrations integrations={integrations} />
+  <Faq />
+  <Cta />
+</BaseLayout>

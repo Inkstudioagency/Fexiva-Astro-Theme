@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="116" height="116" viewBox="0 0 116 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="romania" clip-path="url(#clip0_0_291)">
+<path id="Vector" d="M78.1738 3.60733C71.8903 1.27623 65.0946 0 58 0C50.9054 -0.000226563 44.1095 1.27623 37.8262 3.60733L32.7827 57.9998L37.8262 112.392C44.1092 114.724 50.9052 116 58 116C65.0944 116 71.8906 114.724 78.1738 112.392L83.2171 58L78.1738 3.60733Z" fill="#FFDA44"/>
+<path id="Vector_2" d="M116 58C116 33.0623 100.26 11.8023 78.1738 3.60755V112.393C100.26 104.197 116 82.9382 116 58Z" fill="#D80027"/>
+<path id="Vector_3" d="M0 57.9998C0 82.9382 15.7397 104.197 37.8257 112.393L37.826 3.60778C15.7397 11.8025 0 33.0618 0 57.9998H0Z" fill="#0052B4"/>
+</g>
+<defs>
+<clipPath id="clip0_0_291">
+<rect width="116" height="116" fill="white"/>
+</clipPath>
+</defs>
+</svg>

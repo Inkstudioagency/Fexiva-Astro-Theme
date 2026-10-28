@@ -1,0 +1,66 @@
+---
+import '../styles/normalize.css';
+import '../styles/webflow.css';
+import '../styles/fexiva.webflow.css';
+
+import Footer from '../components/global/Footer.astro';
+import FormHandler from '../components/global/FormHandler.astro';
+import Header from '../components/global/Header.astro';
+import Ix3Prehide from '../components/global/Ix3Prehide.astro';
+import Scripts from '../components/global/Scripts.astro';
+import Seo from '../components/global/Seo.astro';
+
+interface Props {
+  /** Webflow page id. IX3 page-scoped interactions are keyed on it, so keep it unique per template. */
+  pageId: string;
+  title?: string;
+  rawTitle?: boolean;
+  description?: string;
+  image?: string;
+  noindex?: boolean;
+  /** Render without the header/footer chrome (password page). */
+  bare?: boolean;
+}
+
+const { pageId, bare = false, ...seo } = Astro.props;
+---
+
+<!doctype html>
+<html data-wf-page={pageId} lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <Seo {...seo} />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="generator" content={Astro.generator} />
+    <Ix3Prehide />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:200,300,400,500,600,700,800" rel="stylesheet" />
+    <script is:inline>!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+    <link href="/images/favicon.png" rel="icon" type="image/png" sizes="32x32" media="(prefers-color-scheme: light)" />
+    <link href="/images/favicon-dark.png" rel="icon" type="image/png" sizes="32x32" media="(prefers-color-scheme: dark)" />
+    <link href="/images/favicon-48.png" rel="icon" type="image/png" sizes="48x48" />
+    <link href="/images/webclip-180.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="/images/webclip-192.png" rel="icon" type="image/png" sizes="192x192" />
+    <link href="/images/webclip.png" rel="icon" type="image/png" sizes="512x512" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="stylesheet" href="/js/vendor/lenis.css" />
+  </head>
+  <body>
+    {
+      bare ? (
+        <slot />
+      ) : (
+        <div class="page-wrapper">
+          <Header />
+          <main class="main-wrapper">
+            <slot />
+          </main>
+          <Footer pageId={pageId} />
+        </div>
+      )
+    }
+    <Scripts />
+    <FormHandler />
+  </body>
+</html>

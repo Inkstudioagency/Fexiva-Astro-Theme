@@ -1,0 +1,54 @@
+---
+import { navCta, navLinks } from '../../config/site';
+import { isCurrent } from '../../lib/nav';
+
+const path = Astro.url.pathname;
+const homeCurrent = isCurrent('/', path);
+---
+
+<header class="section_header">
+  <div data-animation="over-right" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+    <div class="nav-inner-block">
+      <div class="container-main w-container">
+        <div class="nav-content-block">
+          <a href="/" aria-current={homeCurrent ? 'page' : undefined} class:list={['brand-logo-block w-nav-brand', { 'w--current': homeCurrent }]}><img loading="lazy" src="/images/fexiva-logo.svg" alt="Fexiva logo" class="brand-logo" /></a>
+          <nav role="navigation" class="nav-menu-content w-nav-menu">
+            <div class="nav-link-block">
+              <div class="nav-menu-top">
+                <a href="/" aria-current={homeCurrent ? 'page' : undefined} class:list={['brand-logo-block w-nav-brand', { 'w--current': homeCurrent }]}><img loading="lazy" src="/images/fexiva-logo.svg" alt="Fexiva logo" class="brand-logo" /></a>
+                <div class="menu-button-block">
+                  <div class="menu-close-button w-nav-button">
+                    <div class="menu-button-icon w-icon-nav-menu"></div>
+                  </div>
+                </div>
+              </div>
+              {
+                navLinks.map((link) => {
+                  const current = isCurrent(link.href, path);
+                  return (
+                    <a href={link.href} aria-current={current ? 'page' : undefined} class:list={['nav-link-item w-nav-link', { 'w--current': current }]}>
+                      {link.label}
+                    </a>
+                  );
+                })
+              }
+              <div class="general-button-block is-1">
+                <a href={navCta.href} class="primary-button">{navCta.label}</a>
+              </div>
+            </div>
+          </nav>
+          <div class="nav-button-block">
+            <div class="general-button-block is-2">
+              <a href={navCta.href} class="primary-button">{navCta.label}</a>
+            </div>
+            <div class="menu-button-block">
+              <div class="menu-open-button w-nav-button">
+                <div class="menu-button-icon w-icon-nav-menu"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

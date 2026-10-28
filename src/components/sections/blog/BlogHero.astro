@@ -1,0 +1,61 @@
+---
+import FeaturedBadge from '../../blog/FeaturedBadge.astro';
+import PostMeta from '../../blog/PostMeta.astro';
+import DynList from '../../cms/DynList.astro';
+import { featuredPosts, postUrl } from '../../../lib/blog';
+import { mediaUrl, type BlogPost } from '../../../lib/strapi';
+
+interface Props {
+  posts: BlogPost[];
+}
+
+const { main, side } = featuredPosts(Astro.props.posts);
+---
+
+<section class="section_blog-hero">
+  <div class="hero-glow"></div>
+  <div class="container-main blog-hero-content">
+    <h1 hero-title="" class="heading-style-1 is-blog-hero">Blogs &amp; News In Finance</h1>
+    <div class="blog-featured">
+      <DynList page-load-2="" class="blog-featured-wrapper" itemsClass="blog-featured-main" count={main.length}>
+        {
+          main.map((post) => (
+            <div role="listitem" class="blog-featured-main-item w-dyn-item">
+              <a href={postUrl(post)} class="blog-featured-card w-inline-block">
+                <img src={mediaUrl(post.mainImage)} alt={post.mainImage?.alternativeText || post.title} class="blog-featured-image lg" />
+                <div class="blog-featured-overlay" />
+                <FeaturedBadge />
+                <div class="blog-featured-body">
+                  <PostMeta post={post} light />
+                  <div class="blog-card-title-block">
+                    <h2 class="blog-featured-title">{post.title}</h2>
+                  </div>
+                </div>
+              </a>
+            </div>
+          ))
+        }
+      </DynList>
+      <DynList class="blog-featured-wrapper" itemsClass="blog-featured-side" count={side.length}>
+        {
+          side.map((post) => (
+            <div role="listitem" class="blog-featured-row-item w-dyn-item">
+              <div page-load-3="" class="blog-featured-row">
+                <a href={postUrl(post)} class="blog-featured-row-image w-inline-block">
+                  <img src={mediaUrl(post.mainImage)} alt={post.mainImage?.alternativeText || post.title} class="blog-featured-image" />
+                  <FeaturedBadge />
+                </a>
+                <div class="blog-featured-row-body">
+                  <PostMeta post={post} />
+                  <a href={postUrl(post)} class="blog-card-title-block w-inline-block">
+                    <h3 class="blog-card-title">{post.title}</h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))
+        }
+      </DynList>
+    </div>
+  </div>
+</section>

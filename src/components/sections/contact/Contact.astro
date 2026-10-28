@@ -1,0 +1,34 @@
+---
+import { formAction } from '../../../lib/forms';
+---
+
+<section class="section_contact">
+  <div class="w-layout-blockcontainer container-main w-container">
+    <div reveal-anim-2="" class="contact-card">
+      <div class="contact-form-slot">
+        <div class="contact-form-wrapper w-form">
+          <form id="contact-form" name="email-form" data-name="Email Form" method="get" action={formAction} class="contact-form" data-wf-page-id="6aabbbc642dcf87f90a72ed4" data-wf-element-id="f0a0608d-3d36-ee00-c5fd-74a721e13190">
+            <h2 class="heading-style-4">Get In Touch With Us</h2>
+            <div class="contact-fields">
+              <div class="contact-field"><input class="contact-input w-input" maxlength="256" name="name" data-name="Name" placeholder="Name *" type="text" id="contact-name" required=""></div>
+              <div class="contact-field"><input class="contact-input w-input" maxlength="256" name="email" data-name="Email" placeholder="E-mail *" type="email" id="contact-email" required=""></div>
+              <div class="contact-field"><select id="contact-service" name="field" data-name="Field" required="" class="contact-select w-select">
+                  <option value="">Service</option>
+                  <option value="First">First choice</option>
+                  <option value="Second">Second choice</option>
+                  <option value="Third">Third choice</option>
+                </select></div>
+              <div class="contact-field"><textarea placeholder="Message (Tell us about your business)" maxlength="5000" id="contact-message" name="field-2" data-name="Field 2" class="contact-textarea w-input"></textarea></div>
+            </div><input type="submit" data-wait="Please wait..." class="primary-button w-button" value="Submit">
+          </form>
+          <div class="success-message w-form-done">
+            <div>Thank you! Your message has been received. We&#x27;ll get back to you within one business day.</div>
+          </div>
+          <div class="error-message w-form-fail">
+            <div>Oops! Something went wrong while submitting the form. Please try again.</div>
+          </div>
+        </div>
+      </div><img src="/images/contact-form-photo.webp" alt="Fexiva support specialist smiling while holding a card and phone" sizes="100vw" srcset="/images/contact-form-photo-p-500.webp 500w, /images/contact-form-photo.webp 792w" loading="lazy" class="contact-photo">
+    </div>
+  </div>
+</section>

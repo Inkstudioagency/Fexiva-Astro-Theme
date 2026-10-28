@@ -1,0 +1,20 @@
+---
+/**
+ * Password page (design only). Static hosting cannot verify passwords, so the form
+ * always shows its error state. Protect pages on your host (e.g. basic auth) if needed.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout pageId="6aac295c3f5110e403aa38a2" title="Password" noindex bare description="This Fexiva page is password protected. Enter the password you were given to continue, or return to the homepage to explore features, pricing and the blog.">
+  <div class="password-wrapper"><div class="password-form-wrapper w-password-page w-form"><form method="post" id="email-form" name="email-form" data-name="Email Form" class="password-form w-password-page" data-wf-page-id="6aac295c3f5110e403aa38a2" data-wf-element-id="6aac295c3f5110e403aa38a900000000000c"><img src="/images/fexiva-logo.svg" alt="Fexiva logo" class="password-logo" /><h1 class="heading-style-4">This Page Is Protected</h1><label for="pass" class="contact-label w-password-page">Enter the password to continue</label><input class="contact-input w-password-page w-input" autofocus maxlength="256" name="pass" data-name="field" placeholder="Enter your password" type="password" id="pass" /><input type="submit" data-wait="Please wait..." class="primary-button w-password-page w-button" value="Unlock page" /><div class="contact-form-error w-password-page w-form-fail"><div>Incorrect password. Please try again.</div></div></form></div></div>
+</BaseLayout>
+
+<script>
+  const form = document.querySelector<HTMLFormElement>('form.w-password-page');
+  form?.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const fail = form.querySelector<HTMLElement>('.w-form-fail');
+    if (fail) fail.style.display = 'block';
+  });
+</script>

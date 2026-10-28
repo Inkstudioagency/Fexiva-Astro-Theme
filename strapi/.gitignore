@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output / caches
+dist/
+build/
+.strapi/
+.cache/
+.tmp/
+*.tsbuildinfo
+
+# Local database & uploads
+database/*.db
+.tmp/data.db
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs & OS
+*.log
+.DS_Store
+.strapi-updater.json

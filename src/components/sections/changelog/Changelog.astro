@@ -1,0 +1,25 @@
+---
+/** Add a new entry at the top of this array for every release. */
+const releases = [
+  {
+    version: '1.0.0',
+    date: 'October 27, 2026',
+    title: 'Initial Release',
+    summary:
+      'The first public release of Fexiva for Astro, a finance and spend-management theme. Every page is a static Astro page built from reusable components, and the blog and integrations directory are powered by Strapi.',
+    items: [
+      'Eleven pages: Home, Features, About, Pricing, Contact, Blog, Integrations, Style Guide and the utility pages.',
+      'Two Strapi collection types with dynamic routes: Blog Posts (with Authors) and Integrations.',
+      'Reusable components for Header, Footer, CTA, FAQ, Blog cards and Integration cards.',
+      'Original scroll, hover and page-load interactions, Lottie animations and the GSAP counter.',
+      'Contact, newsletter and password forms with styled success, error and focus states.',
+    ],
+  },
+];
+---
+
+<section class="section_changelog"><div class="w-layout-blockcontainer container-main w-container"><div class="changelog-list">{
+  releases.map((release) => (
+    <div page-load-4="" class="changelog-item"><div class="changelog-meta"><div class="changelog-badge">Version {release.version}</div><div class="text-size-small">{release.date}</div></div><div class="changelog-body"><h2 class="heading-style-4">{release.title}</h2><p class="text-size-regular">{release.summary}</p><ul role="list" class="utility-list">{release.items.map((item) => <li class="utility-list-item">{item}</li>)}</ul></div></div>
+  ))
+}</div></div></section>

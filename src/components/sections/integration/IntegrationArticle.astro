@@ -1,0 +1,23 @@
+---
+import ArticleBody from '../../cms/ArticleBody.astro';
+import type { Integration } from '../../../lib/strapi';
+
+interface Props {
+  integration: Integration;
+}
+
+const { integration } = Astro.props;
+---
+
+<section class="section_integration-article">
+  <div class="container-main">
+    <ArticleBody
+      body={integration.body}
+      images={integration.articleImages}
+      bodyContinued={integration.bodyContinued}
+      imageAlt={(i) => `${integration.name} integration screen ${i}`}
+      reveals={['reveal-anim-1', 'reveal-anim-2', 'reveal-anim-3']}
+      imagesClass="is-integration"
+    />
+  </div>
+</section>

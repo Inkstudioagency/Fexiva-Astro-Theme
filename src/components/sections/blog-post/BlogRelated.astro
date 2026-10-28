@@ -1,0 +1,20 @@
+---
+import BlogCard from '../../blog/BlogCard.astro';
+import DynList from '../../cms/DynList.astro';
+import type { BlogPost } from '../../../lib/strapi';
+
+interface Props {
+  posts: BlogPost[];
+}
+
+const { posts } = Astro.props;
+---
+
+<section class="section_blog-related">
+  <div class="container-main blog-latest-container">
+    <h2 section-title="" class="heading-style-2">More Related Blogs</h2>
+    <DynList itemsClass="blog-list" count={posts.length}>
+      {posts.map((post) => <BlogCard post={post} />)}
+    </DynList>
+  </div>
+</section>

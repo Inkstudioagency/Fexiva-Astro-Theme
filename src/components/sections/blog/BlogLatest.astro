@@ -1,0 +1,51 @@
+---
+import BlogCard from '../../blog/BlogCard.astro';
+import DynList from '../../cms/DynList.astro';
+import { blogCategories } from '../../../config/site';
+import { postsInCategory } from '../../../lib/blog';
+import type { BlogPost } from '../../../lib/strapi';
+
+interface Props {
+  posts: BlogPost[];
+}
+
+const { posts } = Astro.props;
+// Tab 1 is "All", followed by one tab per category (Webflow Tabs component).
+const tabs = [{ label: 'All', category: undefined }, ...blogCategories.map((c) => ({ label: c, category: c }))].map((tab, i) => ({
+  ...tab,
+  id: `Tab ${i + 1}`,
+  posts: postsInCategory(posts, tab.category),
+}));
+---
+
+<section class="section_blog-latest">
+  <div class="container-main blog-latest-container">
+    <div class="blog-latest-header">
+      <h2 section-title="" class="heading-style-2">Latest News</h2>
+    </div>
+    <div data-current="Tab 1" data-easing="ease" data-duration-in="300" data-duration-out="100" class="blog-tabs w-tabs">
+      <div reveal-anim-2="" class="blog-tabs-menu w-tab-menu">
+        {
+          tabs.map((tab, i) => (
+            <a data-w-tab={tab.id} class:list={['blog-tab-link w-inline-block w-tab-link', { 'w--current': i === 0 }]}>
+              <div>{tab.label}</div>
+            </a>
+          ))
+        }
+      </div>
+      <div class="blog-tabs-content w-tab-content">
+        {
+          tabs.map((tab, i) => (
+            <div data-w-tab={tab.id} class:list={['blog-tab-pane w-tab-pane', { 'w--tab-active': i === 0 }]}>
+              <DynList itemsClass="blog-list" count={tab.posts.length}>
+                {tab.posts.map((post) => (
+                  <BlogCard post={post} reveal={i === 0} />
+                ))}
+              </DynList>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>
